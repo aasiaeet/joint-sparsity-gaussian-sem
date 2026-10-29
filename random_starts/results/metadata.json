@@ -1,0 +1,19 @@
+{
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "cvxpy": "1.7.5"
+  },
+  "cpu_count": 88,
+  "workers": 40,
+  "runtime_seconds": {
+    "total": 2620.156786922831,
+    "admissibility": 253.61796707101166,
+    "calibration": 170.29474846995436,
+    "simulation": 2194.6334885240067,
+    "dataset_cpu_sum": 85873.97422431153
+  },
+  "n_runs": 63900,
+  "n_datasets": 900
+}

@@ -1,0 +1,39 @@
+{
+  "p": 4,
+  "alpha": 0.02,
+  "beta": 0.08,
+  "lam": 0.008,
+  "delta": 0.15,
+  "arrow_bound": 2.0,
+  "noise_floor": 0.1,
+  "noise_ceiling": 4.0,
+  "ns": [
+    500,
+    2000,
+    8000
+  ],
+  "seeds": [
+    1201,
+    1202,
+    1203,
+    1204,
+    1205,
+    1206,
+    1207,
+    1208,
+    1209,
+    1210,
+    1211,
+    1212
+  ],
+  "distributions": [
+    "Gaussian",
+    "Student t7"
+  ],
+  "population_seed": 20260908,
+  "initialization_sd": 0.0001,
+  "max_cycles": 4000,
+  "step_tolerance": 1e-08,
+  "numerical_zero": 1e-08,
+  "trajectory_every": 25
+}

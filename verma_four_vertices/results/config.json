@@ -1,0 +1,103 @@
+{
+ "study": "population fits for the Verma graph, all acyclic mixed supports on 4 vertices",
+ "master_seed": 20261022,
+ "parameter_seed_rule": "default_rng(SeedSequence([20261022, 6, 0, 1])), values rounded to 4 decimals",
+ "kl_seed_rule": "default_rng(SeedSequence([20261022, 6, support_index, 1]))",
+ "resid_seed_rule": "default_rng(SeedSequence([20261022, 6, support_index, 2]))",
+ "class_seed_rule": "default_rng(SeedSequence([20261022, 6, support_index, 3])) over GF(2^61-1)",
+ "timing_selection_seed_rule": "default_rng(SeedSequence([20261022, 6, 0, 4])), 200 supports without replacement",
+ "domain": "|B_ij| <= 1000 on the support, Omega positive definite (unbounded); the domain K of the global-selection study (|B| <= 2, spec Omega in [0.05, 10]) is reported, not imposed",
+ "coefficient_bound": 1000.0,
+ "rho_at_infinity_diagnostic": {
+  "trigger": "best residual point at the bound and max|rho| < 1e-2",
+  "bounds": [
+   10000.0,
+   100000.0
+  ],
+  "starts": 10,
+  "limit_if_ratio_below": 0.1
+ },
+ "kl": {
+  "random_starts": 10,
+  "start_box": [
+   -2.0,
+   2.0
+  ],
+  "lbfgs_ftol": 1e-15,
+  "lbfgs_gtol": 1e-11,
+  "lbfgs_maxiter": 3000,
+  "maxcor": 20,
+  "exact_stop": 1e-12,
+  "exact_tol": 1e-10
+ },
+ "resid": {
+  "random_starts_narrow": 30,
+  "narrow_box": [
+   -2.0,
+   2.0
+  ],
+  "random_starts_wide": 10,
+  "wide_box": [
+   -5.0,
+   5.0
+  ],
+  "xtol": 1e-15,
+  "ftol": 1e-15,
+  "gtol": 1e-15,
+  "max_nfev": 3000,
+  "exact_stop": 1e-12,
+  "exact_tol": 1e-09,
+  "all_starts_up_to_edges": 5,
+  "solution_cluster_tol": 1e-06
+ },
+ "projection_limit_hours": 12.0,
+ "generating": {
+  "B": {
+   "1->2": 0.5357,
+   "2->3": -0.95,
+   "3->4": -0.9751
+  },
+  "Omega_diag": [
+   0.9742,
+   0.829,
+   0.9554,
+   0.8046
+  ],
+  "Omega_offdiag": {
+   "2<->4": 0.2981
+  },
+  "Sigma_star": [
+   [
+    0.9742,
+    0.5218789399999999,
+    -0.4957849929999999,
+    0.48343994667429996
+   ],
+   [
+    0.5218789399999999,
+    1.108570548158,
+    -1.0531420207500999,
+    1.3250187844334225
+   ],
+   [
+    -0.4957849929999999,
+    -1.0531420207500999,
+    1.955884919712595,
+    -2.1903783852117513
+   ],
+   [
+    0.48343994667429996,
+    1.3250187844334222,
+    -2.190378385211751,
+    3.2165814079199784
+   ]
+  ],
+  "l_sat": 1.6901569363646312,
+  "Omega_eigenvalues": [
+   0.5184504566787475,
+   0.9554,
+   0.9742,
+   1.1151495433212526
+  ]
+ }
+}

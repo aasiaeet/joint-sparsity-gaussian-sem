@@ -1,0 +1,91 @@
+{
+ "negative_controls": [
+  {
+   "sample": 0,
+   "bump": 1e-06,
+   "wrongly_certified": false,
+   "first_failed_region": [
+    "123",
+    "0,2",
+    "((0, 1), (1, 2))",
+    "()"
+   ]
+  },
+  {
+   "sample": 0,
+   "bump": 0.001,
+   "wrongly_certified": false,
+   "first_failed_region": [
+    "123",
+    "0,2",
+    "((0, 1), (1, 2))",
+    "()"
+   ]
+  },
+  {
+   "sample": 20,
+   "bump": 1e-06,
+   "wrongly_certified": false,
+   "first_failed_region": [
+    "123",
+    "0,2",
+    "((0, 1), (1, 2))",
+    "()"
+   ]
+  },
+  {
+   "sample": 20,
+   "bump": 0.001,
+   "wrongly_certified": false,
+   "first_failed_region": [
+    "123",
+    "0,2",
+    "((0, 1), (1, 2))",
+    "()"
+   ]
+  },
+  {
+   "sample": 50,
+   "bump": 1e-06,
+   "wrongly_certified": false,
+   "first_failed_region": [
+    "123",
+    "0,2",
+    "((0, 1), (1, 2))",
+    "()"
+   ]
+  },
+  {
+   "sample": 50,
+   "bump": 0.001,
+   "wrongly_certified": false,
+   "first_failed_region": [
+    "123",
+    "0,2",
+    "((0, 1), (1, 2))",
+    "()"
+   ]
+  }
+ ],
+ "negative_controls_ok": true,
+ "sampling_counts": {
+  "bspace_boxes": 193,
+  "bspace_points": 77200,
+  "nine_boxes": 200,
+  "nine_points": 68096
+ },
+ "sampling_violations": {
+  "bspace_bound": 0,
+  "bspace_prune": 0,
+  "nine_bound": 0,
+  "nine_infeasible": 0,
+  "nine_kl": 0
+ },
+ "sampling_min_F_minus_bound": {
+  "bspace": 6.02521743269917,
+  "nine": Infinity
+ },
+ "sampling_ok": true,
+ "refit_criterion_minus_s_star_max_abs": 2.220446049250313e-16,
+ "runtime_s": 444.4266095049679
+}

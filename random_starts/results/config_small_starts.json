@@ -1,0 +1,102 @@
+{
+  "study": "random starts of the alternating algorithm (Algorithm 1), p = 3",
+  "p": 3,
+  "designs": [
+    "G1",
+    "G2",
+    "G3"
+  ],
+  "design_parameters": {
+    "G1": {
+      "label": "chain",
+      "B": {
+        "1->2": 0.8,
+        "2->3": -0.7
+      },
+      "Omega_offdiag": {},
+      "Omega_diag": [
+        1,
+        1,
+        1
+      ],
+      "e_star": 2
+    },
+    "G2": {
+      "label": "confounded pair",
+      "B": {
+        "1->2": 0.7
+      },
+      "Omega_offdiag": {
+        "2<->3": 0.5
+      },
+      "Omega_diag": [
+        1,
+        1,
+        1
+      ],
+      "e_star": 2
+    },
+    "G3": {
+      "label": "front-door",
+      "B": {
+        "1->2": 0.7,
+        "2->3": 0.6
+      },
+      "Omega_offdiag": {
+        "1<->3": 0.4
+      },
+      "Omega_diag": [
+        1,
+        1,
+        1
+      ],
+      "e_star": 3
+    }
+  },
+  "coefficient_bound": 2.0,
+  "omega_spectrum": [
+    0.05,
+    10.0
+  ],
+  "lam": 0.01,
+  "delta": 0.1,
+  "delta_scan": [
+    0.1,
+    0.05,
+    0.04,
+    0.03,
+    0.02
+  ],
+  "alpha": 0.01,
+  "beta": 0.0042,
+  "ns": [
+    250,
+    1000,
+    4000
+  ],
+  "datasets": 30,
+  "random_starts": 20,
+  "refit_starts": 0,
+  "max_cycles": 20000,
+  "step_tolerance": 1e-08,
+  "reference_tolerance": 1e-08,
+  "Ks": [
+    1,
+    2,
+    5,
+    10,
+    20
+  ],
+  "start_B_sd": 0.05,
+  "start_omega_offdiag_sd": 0.05,
+  "start_omega_min_corr_eig": 0.5,
+  "start_omega_shrink": 0.8,
+  "master_seed": 20260925,
+  "data_seed_rule": "numpy default_rng(SeedSequence([master_seed, design_index, n, dataset])) (rule of the global-selection study, whose sample sizes differ from these)",
+  "refit_solver_seed_rule": "numpy default_rng(SeedSequence([master_seed, design_index, n, dataset, 1]))",
+  "start_seed_rule": "numpy default_rng(SeedSequence([master_seed, design_index, n, dataset, 2, start]))",
+  "threshold": "support = coordinates with |x| >= delta (also recorded: raw nonzero and |x| >= delta/2)",
+  "covariance": "centered empirical covariance, divisor n (gs.sample_covariance)",
+  "variant": "small random starts",
+  "runtime_seconds": 392.5230137591716
+}

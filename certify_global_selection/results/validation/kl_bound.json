@@ -1,0 +1,27 @@
+{
+ "sample2_order132_L(2, 5)": {
+  "points": 23090,
+  "violations": 0,
+  "min_slack": 0.25618932638502545,
+  "boxes_certified_by_bound": 60
+ },
+ "sample2_order312_L(1, 5)": {
+  "points": 23193,
+  "violations": 0,
+  "min_slack": 0.24976459487053093,
+  "boxes_certified_by_bound": 57
+ },
+ "sample3_order132_L(2, 5)": {
+  "points": 23330,
+  "violations": 0,
+  "min_slack": 0.17391723634303413,
+  "boxes_certified_by_bound": 60
+ },
+ "sample21_order123_L(0, 3)": {
+  "points": 22870,
+  "violations": 0,
+  "min_slack": 0.1033154584401903,
+  "boxes_certified_by_bound": 44
+ },
+ "ok": true
+}

@@ -1,0 +1,133 @@
+{
+  "status": "verified: integer interval arithmetic with outward rounding",
+  "case": "noise",
+  "arithmetic": {
+    "denominator": "1237940039285380274899124224",
+    "precision_bits": 90,
+    "note": "All final comparisons exact rational; floats only propose metric and q0."
+  },
+  "covariance": [
+    [
+      "101/100",
+      "49/100"
+    ],
+    [
+      "49/100",
+      "123/100"
+    ]
+  ],
+  "exact_tunings": {
+    "alpha": "1/20",
+    "beta": "1/20",
+    "lambda": "1/50",
+    "delta": "1/10",
+    "noise_floor": "1/10",
+    "noise_ceiling": "4",
+    "arrow_bound": "2"
+  },
+  "center": [
+    "0",
+    "0",
+    "50500000001/50000000000",
+    "4900000001/10000000000",
+    "12299999999/10000000000"
+  ],
+  "metric_factor": [
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "10856102749/2500000000",
+      "4181835171/1250000000",
+      "129250401/200000000"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "51820556881/10000000000",
+      "15764987431/5000000000"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "422855559/100000000"
+    ]
+  ],
+  "coordinate_convention": [
+    "b01",
+    "b10",
+    "o00",
+    "o01",
+    "o11"
+  ],
+  "candidate_arrow_support": [],
+  "candidate_noise_pairs": [
+    [
+      0,
+      1
+    ]
+  ],
+  "radius": 1e-06,
+  "coordinate_halfwidths": [
+    1e-06,
+    1e-06,
+    2.8435574483546465e-07,
+    2.4071360802717843e-07,
+    2.3648737227550556e-07
+  ],
+  "residual_upper": 2.2349957292694968e-11,
+  "q0": 0.9913,
+  "derivative_interval_error": 2.851103655797352e-06,
+  "contraction_upper": 0.9913028511036558,
+  "ldl_pivot_lower": 0.002375525024601323,
+  "invariant_ball_slack": 8.674798939051508e-09,
+  "fixed_point_distance_upper": 2.569802766293865e-09,
+  "independent_exact_fixed_point_check": true,
+  "independent_actual_distance_upper": 5.892900296602661e-10,
+  "order_gap_lower": null,
+  "active_arrow_min": null,
+  "inactive_arrow_max": 1.1574939686016332e-06,
+  "arrow_threshold": 0.02,
+  "active_noise_min": 0.489999672748255,
+  "inactive_noise_max": null,
+  "noise_threshold": 0.01,
+  "input_noise_spectrum_bounds": [
+    0.5199994748506471,
+    1.7200004772009803
+  ],
+  "output_noise_spectrum_bounds": [
+    0.5199992605613856,
+    1.7200006764893983
+  ],
+  "exact_bounds": {
+    "radius": "1/1000000",
+    "residual_upper": "6916976752236345/309485009821345068724781056",
+    "q0": "9913/10000",
+    "derivative_interval_error": "3529495371664465098935/1237940039285380274899124224",
+    "contraction_upper": "766983431524355706857875486407/773712524553362671811952640000",
+    "ldl_pivot_lower": "91898673196198923801455/38685626227668133590597632",
+    "invariant_ball_slack": "6711800587126374091577153593/773712524553362671811952640000000000",
+    "fixed_point_distance_upper": "17292441880590862500/6729093029006964954077153593",
+    "order_gap_lower": null
+  },
+  "notes": [
+    "Exact rational bounds are in exact_bounds; other decimal fields are rounded for display.",
+    "The ambient derivative includes the reverse directed coefficient and the off-diagonal error covariance as inputs."
+  ]
+}

@@ -1,0 +1,4 @@
+scalar prox: max excess over 4e5-point grid = 0.00e+00
+B-step: max excess over 25-DAG enumeration = 0.00e+00
+Omega-step: max excess over SLSQP multistart = 4.78e-06 (constrained cases: 89 of 300)
+gradients: max |analytic - finite difference| = 7.96e-10

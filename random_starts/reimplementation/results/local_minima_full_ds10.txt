@@ -1,0 +1,37 @@
+failed random-start end points analyzed: 1734
+
+G1: 592 end points
+  count > e*: 592 ; bowed: 570 ; all coords >= delta: 592 ; min |coord| min: 0.1007503791257814
+  l - l_sat: max 0.0051744787236591705 ; exact fits of S (<1e-9): 513
+  l - l_min(E_min): max 0.00025109541019641135 ; fits S at least as well as E_min (<=1e-9): 591 ; (F_end - F_Emin)/lambda quantiles: {0.0: 0.483, 0.5: 2.932, 1.0: 4.0}
+  max |grad| on support: 0.0026491671194135077
+  off-support ratio |dl|/(2lam/delta) max: B 0.6224253486258688  O 0.6389017773100791
+  restricted Hessian min eig: -0.016122669216424974 ; flat directions:  {0: 30, 1: 180, 2: 258, 3: 124}
+  perturbation min dF: -1.1098840868584148e-07 ; negative (< -1e-12): 108
+  deletion+refit: end points where EVERY single deletion increases F: 22 of 592
+  deletion+refit: best deletion dF/lambda quantiles: {0.0: -3.0, 0.1: -2.529, 0.5: -1.284, 0.9: -1.0, 1.0: 11.954}
+  deletion path (best edge): barrier/lambda quantiles: {0.0: -0.002646, 0.5: -0.0, 0.9: 0.821029, 1.0: 14.975508} ; non-increasing paths: 432 of 570 ; path end dF/lambda median: -1.0
+
+G2: 582 end points
+  count > e*: 582 ; bowed: 549 ; all coords >= delta: 582 ; min |coord| min: 0.10054396185930708
+  l - l_sat: max 0.004828970676182376 ; exact fits of S (<1e-9): 497
+  l - l_min(E_min): max 2.2391644094454932e-11 ; fits S at least as well as E_min (<=1e-9): 582 ; (F_end - F_Emin)/lambda quantiles: {0.0: 0.447, 0.5: 2.852, 1.0: 4.0}
+  max |grad| on support: 2.1354466120782067e-05
+  off-support ratio |dl|/(2lam/delta) max: B 0.49791923230195023  O 0.4919419688825353
+  restricted Hessian min eig: -2.5261184191044784e-06 ; flat directions:  {0: 35, 1: 181, 2: 270, 3: 96}
+  perturbation min dF: -7.666978163456406e-12 ; negative (< -1e-12): 65
+  deletion+refit: end points where EVERY single deletion increases F: 33 of 582
+  deletion+refit: best deletion dF/lambda quantiles: {0.0: -3.899, 0.1: -2.798, 0.5: -1.512, 0.9: -1.0, 1.0: 7.328}
+  deletion path (best edge): barrier/lambda quantiles: {0.0: -0.0, 0.5: -0.0, 0.9: 0.971041, 1.0: 10.786654} ; non-increasing paths: 341 of 549 ; path end dF/lambda median: -1.0
+
+G3: 560 end points
+  count > e*: 560 ; bowed: 560 ; all coords >= delta: 560 ; min |coord| min: 0.10036495670801229
+  l - l_sat: max 6.317872069949715e-08 ; exact fits of S (<1e-9): 542
+  l - l_min(E_min): max 6.317872069949715e-08 ; fits S at least as well as E_min (<=1e-9): 542 ; (F_end - F_Emin)/lambda quantiles: {0.0: 1.0, 0.5: 2.0, 1.0: 3.0}
+  max |grad| on support: 0.00010196911826693134
+  off-support ratio |dl|/(2lam/delta) max: B 0.0012944107130361455  O 0.0011697065064208978
+  restricted Hessian min eig: -2.0610654955721315e-05 ; flat directions:  {0: 6, 1: 205, 2: 238, 3: 111}
+  perturbation min dF: -1.0690337504115632e-11 ; negative (< -1e-12): 81
+  deletion+refit: end points where EVERY single deletion increases F: 0 of 560
+  deletion+refit: best deletion dF/lambda quantiles: {0.0: -3.0, 0.1: -2.0, 0.5: -1.0, 0.9: -1.0, 1.0: -1.0}
+  deletion path (best edge): barrier/lambda quantiles: {0.0: -6e-06, 0.5: -0.0, 0.9: 1.011161, 1.0: 22.253882} ; non-increasing paths: 374 of 560 ; path end dF/lambda median: -1.0

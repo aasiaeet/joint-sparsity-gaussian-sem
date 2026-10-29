@@ -1,0 +1,119 @@
+{
+  "study": "global selection by exhaustive enumeration, p = 3",
+  "p": 3,
+  "n_supports_expected": 200,
+  "coefficient_bound": 2.0,
+  "omega_spectrum": [
+    0.05,
+    10.0
+  ],
+  "designs": {
+    "G1": {
+      "label": "chain",
+      "B": {
+        "1->2": 0.8,
+        "2->3": -0.7
+      },
+      "Omega_offdiag": {},
+      "Omega_diag": [
+        1,
+        1,
+        1
+      ],
+      "e_star": 2
+    },
+    "G2": {
+      "label": "confounded pair",
+      "B": {
+        "1->2": 0.7
+      },
+      "Omega_offdiag": {
+        "2<->3": 0.5
+      },
+      "Omega_diag": [
+        1,
+        1,
+        1
+      ],
+      "e_star": 2
+    },
+    "G3": {
+      "label": "front-door",
+      "B": {
+        "1->2": 0.7,
+        "2->3": 0.6
+      },
+      "Omega_offdiag": {
+        "1<->3": 0.4
+      },
+      "Omega_diag": [
+        1,
+        1,
+        1
+      ],
+      "e_star": 3
+    }
+  },
+  "ns": [
+    100,
+    200,
+    400,
+    800,
+    1600,
+    3200,
+    6400
+  ],
+  "replications": 200,
+  "tuning": "lambda_n = delta_n = log(n)/n",
+  "threshold": "delta_n / 2 (Theorem 9(ii))",
+  "master_seed": 20260925,
+  "data_seed_rule": "numpy default_rng(SeedSequence([master_seed, design_index, n, replication]))",
+  "solver_seed_rule": "numpy default_rng(SeedSequence([master_seed, design_index, n, replication, 1]))",
+  "covariance": "centered empirical covariance, divisor n",
+  "exact_fit_tolerance": 1e-10,
+  "tie_tolerances": [
+    1e-12,
+    1e-09
+  ],
+  "solver": {
+    "method": "profile over B (closed-form Omega step) + L-BFGS-B",
+    "random_starts": 8,
+    "start_box": [
+      -2.0,
+      2.0
+    ],
+    "lbfgs_ftol": 1e-15,
+    "lbfgs_gtol": 1e-11,
+    "lbfgs_maxiter": 2000,
+    "spectral_fallback": "joint SLSQP with eigenvalue constraints",
+    "hierarchy_repair": "re-solve H warm-started at the optimum of any H' in H that fits better by >1e-10"
+  },
+  "class_invariant": {
+    "jacobian_draws": 6,
+    "rank_rel_tol": 1e-08,
+    "vanish_tol": 1e-10,
+    "constraints": [
+      "rho12",
+      "rho13",
+      "rho23",
+      "rho12.3",
+      "rho13.2",
+      "rho23.1"
+    ],
+    "class_seed": 4242
+  },
+  "validation": {
+    "random_S": 24,
+    "validation_seed": 777,
+    "monotone_tol": 1e-09,
+    "dag_tol": 1e-09,
+    "saturated_tol": 1e-09
+  },
+  "equivalence_check": {
+    "top_supports": 6,
+    "descent_max_iter": 3000,
+    "descent_step_min": 1e-14,
+    "lower_tol": 1e-10,
+    "description": "prox-gradient descent of l_S + lambda P_delta over all forward B entries of each topological order compatible with the start support plus all Omega entries; exact scalar prox; backtracking with sufficient decrease and spectral feasibility"
+  }
+}

@@ -1,0 +1,40 @@
+runs compared: 5670 (small)
+start order identical: 5400 of 5400
+start omega scale identical: 5400 of 5400
+start objective max |diff|: 1.3322676295501878e-15
+support_thr identical: 5670 of 5670
+support_raw identical: 5670 of 5670
+support_half identical: 5670 of 5670
+E_min status identical: 5670 of 5670
+status identical: 5670 of 5670
+objective |diff|: max 6.661338147750939e-16 median 0.0 ; > 1e-10: 0 ; > 1e-8: 0
+cycles identical: 5670 ; |diff| <= 5: 5670 ; max |diff|: 0
+conic calls in rerun: 0 ; B-step order ties changing the matrix: 0
+max sampled objective increase in rerun: -2.2870594307278225e-14
+
+Disagreements (support_thr or objective > 1e-8): 0
+
+single-start E_min rate (random), rerun vs study, same runs:
+                rerun     study  runs
+design n                             
+G1     250   0.295000  0.295000   600
+       1000  0.343333  0.343333   600
+       4000  0.328333  0.328333   600
+G2     250   0.101667  0.101667   600
+       1000  0.081667  0.081667   600
+       4000  0.091667  0.091667   600
+G3     250   0.453333  0.453333   600
+       1000  0.451667  0.451667   600
+       4000  0.448333  0.448333   600
+deterministic E_min, rerun vs study:
+             rerun  study  runs
+design n                       
+G1     250      28     28    30
+       1000     30     30    30
+       4000     30     30    30
+G2     250       0      0    30
+       1000      0      0    30
+       4000      0      0    30
+G3     250      30     30    30
+       1000     30     30    30
+       4000     30     30    30

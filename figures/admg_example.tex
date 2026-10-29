@@ -1,0 +1,46 @@
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage{amsmath}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usetikzlibrary{arrows.meta}
+\definecolor{directed}{HTML}{1B4F72}
+\definecolor{bidirected}{HTML}{E67E22}
+\begin{document}
+\begin{tikzpicture}[x=1pt,y=1pt,
+  font=\sffamily\fontsize{9}{11}\selectfont,
+  vertex/.style={circle,draw=black,line width=.5pt,minimum size=20pt,
+                 inner sep=0pt,fill=white},
+  directed edge/.style={-{Stealth[length=4pt,width=3pt]},
+                        draw=directed,line width=.7pt},
+  bidirected edge/.style={{Stealth[length=4pt,width=3pt]}-{Stealth[length=4pt,width=3pt]},
+                          draw=bidirected,line width=.7pt}]
+\path[use as bounding box] (0,0) rectangle (446,173);
+\node at (223,155) {$\Sigma_r=\begin{pmatrix}1&r\\r&1\end{pmatrix},
+                   \qquad 0<r<1$};
+
+\node[anchor=west,font=\sffamily\bfseries\fontsize{9}{11}\selectfont]
+  at (3,124) {A.};
+\node[vertex] (a1) at (40,106) {1};
+\node[vertex] (a2) at (92,106) {2};
+\draw[bidirected edge] (a1) to[bend left=30] (a2);
+\node at (66,68) {$B=\begin{pmatrix}0&0\\0&0\end{pmatrix}$};
+\node at (66,29) {$\Omega=\begin{pmatrix}1&r\\r&1\end{pmatrix}$};
+
+\node[anchor=west,font=\sffamily\bfseries\fontsize{9}{11}\selectfont]
+  at (146,124) {B.};
+\node[vertex] (b1) at (183,106) {1};
+\node[vertex] (b2) at (235,106) {2};
+\draw[directed edge] (b1) -- (b2);
+\node at (209,68) {$B=\begin{pmatrix}0&r\\0&0\end{pmatrix}$};
+\node at (209,29) {$\Omega=\begin{pmatrix}1&0\\0&1-r^2\end{pmatrix}$};
+
+\node[anchor=west,font=\sffamily\bfseries\fontsize{9}{11}\selectfont]
+  at (291,124) {C.};
+\node[vertex] (c1) at (337,106) {1};
+\node[vertex] (c2) at (389,106) {2};
+\draw[directed edge] (c1) -- (c2);
+\draw[bidirected edge] (c1) to[bend left=30] (c2);
+\node at (363,68) {$B_t=\begin{pmatrix}0&t\\0&0\end{pmatrix},\quad0<t<r$};
+\node at (363,29) {$\Omega_t=\begin{pmatrix}1&r-t\\r-t&1-2rt+t^2\end{pmatrix}$};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,73 @@
+{
+ "f_CI": "-s12*s23 + s13*s22",
+ "f_V": "s13*s22*s34 - s13*s23*s24 - s14*s22*s33 + s14*s23**2",
+ "g": "s12*s13*s34 - s12*s14*s33 - s13**2*s24 + s13*s14*s23",
+ "g_on_model": "0",
+ "g_identity": "s12 * f_V - s22 * g = -(s12*s23 - s13*s22)*(s13*s24 - s14*s23)",
+ "graded": {
+  "prime_q": 67108859,
+  "table": [
+   {
+    "degree": 2,
+    "n_monomials": 55,
+    "n_points": 95,
+    "dim_I_d": 1,
+    "dim_fCI_fV": 1,
+    "dim_fCI_fV_g": 1,
+    "seconds": 0.02652573585510254
+   },
+   {
+    "degree": 3,
+    "n_monomials": 220,
+    "n_points": 260,
+    "dim_I_d": 12,
+    "dim_fCI_fV": 11,
+    "dim_fCI_fV_g": 12,
+    "seconds": 0.831549882888794
+   },
+   {
+    "degree": 4,
+    "n_monomials": 715,
+    "n_points": 755,
+    "dim_I_d": 73,
+    "dim_fCI_fV": 65,
+    "dim_fCI_fV_g": 73,
+    "seconds": 26.741607427597046
+   },
+   {
+    "degree": 5,
+    "n_monomials": 2002,
+    "n_points": 2042,
+    "dim_I_d": 310,
+    "dim_fCI_fV": 274,
+    "dim_fCI_fV_g": 310,
+    "seconds": 514.6835646629333
+   }
+  ]
+ },
+ "saturations": {
+  "s22": {
+   "generators": [
+    "s12*s13*s34 - s12*s14*s33 - s13**2*s24 + s13*s14*s23",
+    "s12*s23 - s13*s22",
+    "s13*s22*s34 - s13*s23*s24 - s14*s22*s33 + s14*s23**2"
+   ],
+   "seconds": 0.022785425186157227
+  },
+  "s13": {
+   "generators": [
+    "s12*s23 - s13*s22",
+    "s13*s22*s34 - s13*s23*s24 - s14*s22*s33 + s14*s23**2"
+   ],
+   "seconds": 0.012903690338134766
+  },
+  "s11": {
+   "generators": [
+    "s12*s23 - s13*s22",
+    "s13*s22*s34 - s13*s23*s24 - s14*s22*s33 + s14*s23**2"
+   ],
+   "seconds": 0.010539531707763672
+  }
+ },
+ "runtime_seconds": 542.3871669769287
+}

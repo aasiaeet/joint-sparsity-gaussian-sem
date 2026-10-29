@@ -1,0 +1,11 @@
+design,n,capped_random,capped_random_successes,remain_successes,successes_lost,capped_random_failures,failures_become_successes,capped_random_support_changed,capped_random_still_capped,capped_random_now_attain_reference,capped_random_successes_now_attain_reference,capped_refit,capped_refit_successes_old,capped_refit_successes_new,capped_refit_support_changed,capped_refit_still_capped
+G1,250,169,11,11,0,158,0,1,0,11,11,130,128,128,0,0
+G1,1000,161,11,11,0,150,0,4,0,11,11,126,126,126,0,0
+G1,4000,151,21,21,0,130,0,4,0,21,21,130,130,130,0,0
+G2,250,50,7,7,0,43,0,0,0,7,7,29,12,12,0,10
+G2,1000,22,5,5,0,17,1,1,0,6,6,5,0,0,0,1
+G2,4000,9,3,3,0,6,0,0,0,3,3,4,0,0,0,0
+G3,250,216,69,69,0,147,0,0,0,68,68,77,65,65,0,6
+G3,1000,195,66,66,0,129,0,0,0,66,66,52,43,43,0,8
+G3,4000,235,78,78,0,157,0,0,0,78,78,44,41,41,0,3
+all,all,1208,271,271,0,937,1,10,0,271,271,597,545,545,0,28

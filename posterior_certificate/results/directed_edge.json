@@ -1,0 +1,133 @@
+{
+  "status": "verified: integer interval arithmetic with outward rounding",
+  "case": "arrow",
+  "arithmetic": {
+    "denominator": "1237940039285380274899124224",
+    "precision_bits": 90,
+    "note": "All final comparisons exact rational; floats only propose metric and q0."
+  },
+  "covariance": [
+    [
+      "101/100",
+      "49/100"
+    ],
+    [
+      "49/100",
+      "123/100"
+    ]
+  ],
+  "exact_tunings": {
+    "alpha": "1/20",
+    "beta": "1/20",
+    "lambda": "1/50",
+    "delta": "1/10",
+    "noise_floor": "1/10",
+    "noise_ceiling": "4",
+    "arrow_bound": "2"
+  },
+  "center": [
+    "490000000101/1010000000000",
+    "0",
+    "50500000001/50000000000",
+    "0",
+    "1002199999899/1010000000000"
+  ],
+  "metric_factor": [
+    [
+      "6350135351/2000000000",
+      "0",
+      "0",
+      "-1518466191/10000000000",
+      "3/5000000000"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "45447883813/10000000000",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "10012687281/10000000000",
+      "1/10000000000"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "44660381289/10000000000"
+    ]
+  ],
+  "coordinate_convention": [
+    "b01",
+    "b10",
+    "o00",
+    "o01",
+    "o11"
+  ],
+  "candidate_arrow_support": [
+    [
+      0,
+      1
+    ]
+  ],
+  "candidate_noise_pairs": [],
+  "radius": 1e-06,
+  "coordinate_halfwidths": [
+    3.185551407348352e-07,
+    1e-06,
+    2.2003224707108543e-07,
+    9.987328795313446e-07,
+    2.2391210534655764e-07
+  ],
+  "residual_upper": 1.9865989028239403e-11,
+  "q0": 0.9756,
+  "derivative_interval_error": 1.4702393821595461e-06,
+  "contraction_upper": 0.9756014702393822,
+  "ldl_pivot_lower": 0.00020954975080475009,
+  "invariant_ball_slack": 2.43786637715896e-08,
+  "fixed_point_distance_upper": 8.142289401513651e-10,
+  "independent_exact_fixed_point_check": true,
+  "independent_actual_distance_upper": 5.554525665276512e-10,
+  "order_gap_lower": 2.3334603881581186,
+  "active_arrow_min": 0.48514812985366484,
+  "inactive_arrow_max": null,
+  "arrow_threshold": 0.02,
+  "active_noise_min": null,
+  "inactive_noise_max": 1.0831781427576201e-06,
+  "noise_threshold": 0.01,
+  "input_noise_spectrum_bounds": [
+    0.9922760049777875,
+    1.0100012187851266
+  ],
+  "output_noise_spectrum_bounds": [
+    0.9922769441426964,
+    1.0100002697422346
+  ],
+  "exact_bounds": {
+    "radius": "1/1000000",
+    "residual_upper": "24592903238061621/1237940039285380274899124224",
+    "q0": "2439/2500",
+    "derivative_interval_error": "455017049627375441957/309485009821345068724781056",
+    "contraction_upper": "188708769124221172764586472021/193428131138340667952988160000",
+    "ldl_pivot_lower": "64852506685868490138097/309485009821345068724781056",
+    "invariant_ball_slack": "4715519372988548060120437979/193428131138340667952988160000000000",
+    "fixed_point_distance_upper": "15370564523788513125/18877448056477980753606751916",
+    "order_gap_lower": "8940044099098756804449042675648670565479115933174760959/3831238852164722145895867567875772959046847805459005440"
+  },
+  "notes": [
+    "Exact rational bounds are in exact_bounds; other decimal fields are rounded for display.",
+    "The ambient derivative includes the reverse directed coefficient and the off-diagonal error covariance as inputs."
+  ]
+}

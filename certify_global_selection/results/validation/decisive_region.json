@@ -1,0 +1,108 @@
+{
+ "samples": {
+  "0": {
+   "selected": "2->1,2<->3",
+   "region": [
+    "213",
+    [
+     0,
+     5
+    ]
+   ],
+   "certified_with_target_shift_0": true,
+   "certified_with_target_shift_1e-06": false,
+   "certified_with_target_shift_0.001": false,
+   "bspace_points": 9000,
+   "bspace_violations": 0,
+   "bspace_min_slack": 0.0001280109755317227,
+   "nineD_points": 9000,
+   "nineD_points_in_K": 9000,
+   "nineD_violations": 0,
+   "nineD_min_slack": 8.853121391427798e-05
+  },
+  "20": {
+   "selected": "2->1,2<->3",
+   "region": [
+    "213",
+    [
+     0,
+     5
+    ]
+   ],
+   "certified_with_target_shift_0": true,
+   "certified_with_target_shift_1e-06": false,
+   "certified_with_target_shift_0.001": false,
+   "bspace_points": 9000,
+   "bspace_violations": 0,
+   "bspace_min_slack": 2.8324926665712624e-05,
+   "nineD_points": 9000,
+   "nineD_points_in_K": 9000,
+   "nineD_violations": 0,
+   "nineD_min_slack": 5.8792417695352484e-05
+  },
+  "50": {
+   "selected": "2->1,2<->3",
+   "region": [
+    "213",
+    [
+     0,
+     5
+    ]
+   ],
+   "certified_with_target_shift_0": true,
+   "certified_with_target_shift_1e-06": false,
+   "certified_with_target_shift_0.001": false,
+   "bspace_points": 9000,
+   "bspace_violations": 0,
+   "bspace_min_slack": 6.117904790414741e-05,
+   "nineD_points": 9000,
+   "nineD_points_in_K": 9000,
+   "nineD_violations": 0,
+   "nineD_min_slack": 2.9635496895386026e-05
+  },
+  "36": {
+   "selected": "1<->2,2<->3",
+   "region": [
+    "123",
+    [
+     3,
+     5
+    ]
+   ],
+   "certified_with_target_shift_0": true,
+   "certified_with_target_shift_1e-06": false,
+   "certified_with_target_shift_0.001": false,
+   "bspace_points": 9000,
+   "bspace_violations": 0,
+   "bspace_min_slack": 1.7183102512197124e-05,
+   "nineD_points": 9000,
+   "nineD_points_in_K": 9000,
+   "nineD_violations": 0,
+   "nineD_min_slack": 2.3003075519278937e-05
+  },
+  "85": {
+   "selected": "1->2,1<->3,2<->3",
+   "region": [
+    "123",
+    [
+     0,
+     4,
+     5
+    ]
+   ],
+   "certified_with_target_shift_0": true,
+   "certified_with_target_shift_1e-06": false,
+   "certified_with_target_shift_0.001": false,
+   "bspace_points": 0,
+   "bspace_violations": 0,
+   "bspace_min_slack": Infinity,
+   "nineD_points": 9000,
+   "nineD_points_in_K": 9000,
+   "nineD_violations": 0,
+   "nineD_min_slack": 1.1720297981021588e-06
+  }
+ },
+ "negative_controls_ok": true,
+ "soundness_ok": true,
+ "runtime_s": 1275.6072063249303
+}

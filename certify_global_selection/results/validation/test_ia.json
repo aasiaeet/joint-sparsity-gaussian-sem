@@ -1,0 +1,18 @@
+{
+ "point_add_failures": 0,
+ "point_sub_failures": 0,
+ "point_mul_failures": 0,
+ "point_div_failures": 0,
+ "sqr_failures": 0,
+ "sqrt_failures": 0,
+ "wide_mul_sample_failures": 0,
+ "log_failures": 0,
+ "log_n": 9014,
+ "log_max_relative_width": 3.719849761602904e-15,
+ "det3_failures": 0,
+ "adj3_entry_failures": 0,
+ "cholesky_cases": 2000,
+ "cholesky_agree_with_weyl_sufficient": 1998,
+ "cholesky_unsafe_certifications": 0,
+ "all_enclosures_ok": true
+}

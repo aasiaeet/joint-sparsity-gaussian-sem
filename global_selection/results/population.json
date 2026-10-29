@@ -1,0 +1,4984 @@
+{
+  "supports": [
+    {
+      "index": 0,
+      "support": "empty",
+      "count": 0,
+      "bowed": false,
+      "dim": 3,
+      "vanishing": [
+        "rho12",
+        "rho13",
+        "rho23",
+        "rho12.3",
+        "rho13.2",
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 1,
+      "support": "1<->2",
+      "count": 1,
+      "bowed": false,
+      "dim": 4,
+      "vanishing": [
+        "rho13",
+        "rho23",
+        "rho13.2",
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 2,
+      "support": "1<->3",
+      "count": 1,
+      "bowed": false,
+      "dim": 4,
+      "vanishing": [
+        "rho12",
+        "rho23",
+        "rho12.3",
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 3,
+      "support": "2<->3",
+      "count": 1,
+      "bowed": false,
+      "dim": 4,
+      "vanishing": [
+        "rho12",
+        "rho13",
+        "rho12.3",
+        "rho13.2"
+      ]
+    },
+    {
+      "index": 4,
+      "support": "1->2",
+      "count": 1,
+      "bowed": false,
+      "dim": 4,
+      "vanishing": [
+        "rho13",
+        "rho23",
+        "rho13.2",
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 5,
+      "support": "1->3",
+      "count": 1,
+      "bowed": false,
+      "dim": 4,
+      "vanishing": [
+        "rho12",
+        "rho23",
+        "rho12.3",
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 6,
+      "support": "2->1",
+      "count": 1,
+      "bowed": false,
+      "dim": 4,
+      "vanishing": [
+        "rho13",
+        "rho23",
+        "rho13.2",
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 7,
+      "support": "2->3",
+      "count": 1,
+      "bowed": false,
+      "dim": 4,
+      "vanishing": [
+        "rho12",
+        "rho13",
+        "rho12.3",
+        "rho13.2"
+      ]
+    },
+    {
+      "index": 8,
+      "support": "3->1",
+      "count": 1,
+      "bowed": false,
+      "dim": 4,
+      "vanishing": [
+        "rho12",
+        "rho23",
+        "rho12.3",
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 9,
+      "support": "3->2",
+      "count": 1,
+      "bowed": false,
+      "dim": 4,
+      "vanishing": [
+        "rho12",
+        "rho13",
+        "rho12.3",
+        "rho13.2"
+      ]
+    },
+    {
+      "index": 10,
+      "support": "1<->2,1<->3",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho23"
+      ]
+    },
+    {
+      "index": 11,
+      "support": "1<->2,2<->3",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho13"
+      ]
+    },
+    {
+      "index": 12,
+      "support": "1<->3,2<->3",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho12"
+      ]
+    },
+    {
+      "index": 13,
+      "support": "1->2,1<->2",
+      "count": 2,
+      "bowed": true,
+      "dim": 4,
+      "vanishing": [
+        "rho13",
+        "rho23",
+        "rho13.2",
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 14,
+      "support": "1->2,1<->3",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 15,
+      "support": "1->2,2<->3",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho13"
+      ]
+    },
+    {
+      "index": 16,
+      "support": "1->3,1<->2",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 17,
+      "support": "1->3,1<->3",
+      "count": 2,
+      "bowed": true,
+      "dim": 4,
+      "vanishing": [
+        "rho12",
+        "rho23",
+        "rho12.3",
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 18,
+      "support": "1->3,2<->3",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho12"
+      ]
+    },
+    {
+      "index": 19,
+      "support": "2->1,1<->2",
+      "count": 2,
+      "bowed": true,
+      "dim": 4,
+      "vanishing": [
+        "rho13",
+        "rho23",
+        "rho13.2",
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 20,
+      "support": "2->1,1<->3",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho23"
+      ]
+    },
+    {
+      "index": 21,
+      "support": "2->1,2<->3",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho13.2"
+      ]
+    },
+    {
+      "index": 22,
+      "support": "2->3,1<->2",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho13.2"
+      ]
+    },
+    {
+      "index": 23,
+      "support": "2->3,1<->3",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho12"
+      ]
+    },
+    {
+      "index": 24,
+      "support": "2->3,2<->3",
+      "count": 2,
+      "bowed": true,
+      "dim": 4,
+      "vanishing": [
+        "rho12",
+        "rho13",
+        "rho12.3",
+        "rho13.2"
+      ]
+    },
+    {
+      "index": 25,
+      "support": "3->1,1<->2",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho23"
+      ]
+    },
+    {
+      "index": 26,
+      "support": "3->1,1<->3",
+      "count": 2,
+      "bowed": true,
+      "dim": 4,
+      "vanishing": [
+        "rho12",
+        "rho23",
+        "rho12.3",
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 27,
+      "support": "3->1,2<->3",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho12.3"
+      ]
+    },
+    {
+      "index": 28,
+      "support": "3->2,1<->2",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho13"
+      ]
+    },
+    {
+      "index": 29,
+      "support": "3->2,1<->3",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho12.3"
+      ]
+    },
+    {
+      "index": 30,
+      "support": "3->2,2<->3",
+      "count": 2,
+      "bowed": true,
+      "dim": 4,
+      "vanishing": [
+        "rho12",
+        "rho13",
+        "rho12.3",
+        "rho13.2"
+      ]
+    },
+    {
+      "index": 31,
+      "support": "1->2,1->3",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 32,
+      "support": "1->2,2->3",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho13.2"
+      ]
+    },
+    {
+      "index": 33,
+      "support": "1->2,3->1",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 34,
+      "support": "1->2,3->2",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho13"
+      ]
+    },
+    {
+      "index": 35,
+      "support": "1->3,2->1",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 36,
+      "support": "1->3,2->3",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho12"
+      ]
+    },
+    {
+      "index": 37,
+      "support": "1->3,3->2",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho12.3"
+      ]
+    },
+    {
+      "index": 38,
+      "support": "2->1,2->3",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho13.2"
+      ]
+    },
+    {
+      "index": 39,
+      "support": "2->1,3->1",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho23"
+      ]
+    },
+    {
+      "index": 40,
+      "support": "2->1,3->2",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho13.2"
+      ]
+    },
+    {
+      "index": 41,
+      "support": "2->3,3->1",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho12.3"
+      ]
+    },
+    {
+      "index": 42,
+      "support": "3->1,3->2",
+      "count": 2,
+      "bowed": false,
+      "dim": 5,
+      "vanishing": [
+        "rho12.3"
+      ]
+    },
+    {
+      "index": 43,
+      "support": "1<->2,1<->3,2<->3",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 44,
+      "support": "1->2,1<->2,1<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 45,
+      "support": "1->2,1<->2,2<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho13"
+      ]
+    },
+    {
+      "index": 46,
+      "support": "1->2,1<->3,2<->3",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 47,
+      "support": "1->3,1<->2,1<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 48,
+      "support": "1->3,1<->2,2<->3",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 49,
+      "support": "1->3,1<->3,2<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho12"
+      ]
+    },
+    {
+      "index": 50,
+      "support": "2->1,1<->2,1<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho23"
+      ]
+    },
+    {
+      "index": 51,
+      "support": "2->1,1<->2,2<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 52,
+      "support": "2->1,1<->3,2<->3",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 53,
+      "support": "2->3,1<->2,1<->3",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 54,
+      "support": "2->3,1<->2,2<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 55,
+      "support": "2->3,1<->3,2<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho12"
+      ]
+    },
+    {
+      "index": 56,
+      "support": "3->1,1<->2,1<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho23"
+      ]
+    },
+    {
+      "index": 57,
+      "support": "3->1,1<->2,2<->3",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 58,
+      "support": "3->1,1<->3,2<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 59,
+      "support": "3->2,1<->2,1<->3",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 60,
+      "support": "3->2,1<->2,2<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho13"
+      ]
+    },
+    {
+      "index": 61,
+      "support": "3->2,1<->3,2<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 62,
+      "support": "1->2,1->3,1<->2",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 63,
+      "support": "1->2,1->3,1<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 64,
+      "support": "1->2,1->3,2<->3",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 65,
+      "support": "1->2,2->3,1<->2",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho13.2"
+      ]
+    },
+    {
+      "index": 66,
+      "support": "1->2,2->3,1<->3",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 67,
+      "support": "1->2,2->3,2<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 68,
+      "support": "1->2,3->1,1<->2",
+      "count": 3,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 69,
+      "support": "1->2,3->1,1<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 70,
+      "support": "1->2,3->1,2<->3",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 71,
+      "support": "1->2,3->2,1<->2",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho13"
+      ]
+    },
+    {
+      "index": 72,
+      "support": "1->2,3->2,1<->3",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 73,
+      "support": "1->2,3->2,2<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho13"
+      ]
+    },
+    {
+      "index": 74,
+      "support": "1->3,2->1,1<->2",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho23.1"
+      ]
+    },
+    {
+      "index": 75,
+      "support": "1->3,2->1,1<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 76,
+      "support": "1->3,2->1,2<->3",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 77,
+      "support": "1->3,2->3,1<->2",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 78,
+      "support": "1->3,2->3,1<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho12"
+      ]
+    },
+    {
+      "index": 79,
+      "support": "1->3,2->3,2<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho12"
+      ]
+    },
+    {
+      "index": 80,
+      "support": "1->3,3->2,1<->2",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 81,
+      "support": "1->3,3->2,1<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho12.3"
+      ]
+    },
+    {
+      "index": 82,
+      "support": "1->3,3->2,2<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 83,
+      "support": "2->1,2->3,1<->2",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho13.2"
+      ]
+    },
+    {
+      "index": 84,
+      "support": "2->1,2->3,1<->3",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 85,
+      "support": "2->1,2->3,2<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho13.2"
+      ]
+    },
+    {
+      "index": 86,
+      "support": "2->1,3->1,1<->2",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho23"
+      ]
+    },
+    {
+      "index": 87,
+      "support": "2->1,3->1,1<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho23"
+      ]
+    },
+    {
+      "index": 88,
+      "support": "2->1,3->1,2<->3",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 89,
+      "support": "2->1,3->2,1<->2",
+      "count": 3,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 90,
+      "support": "2->1,3->2,1<->3",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 91,
+      "support": "2->1,3->2,2<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho13.2"
+      ]
+    },
+    {
+      "index": 92,
+      "support": "2->3,3->1,1<->2",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 93,
+      "support": "2->3,3->1,1<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 94,
+      "support": "2->3,3->1,2<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho12.3"
+      ]
+    },
+    {
+      "index": 95,
+      "support": "3->1,3->2,1<->2",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 96,
+      "support": "3->1,3->2,1<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho12.3"
+      ]
+    },
+    {
+      "index": 97,
+      "support": "3->1,3->2,2<->3",
+      "count": 3,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho12.3"
+      ]
+    },
+    {
+      "index": 98,
+      "support": "1->2,1->3,2->3",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 99,
+      "support": "1->2,1->3,3->2",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 100,
+      "support": "1->2,3->1,3->2",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 101,
+      "support": "1->3,2->1,2->3",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 102,
+      "support": "2->1,2->3,3->1",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 103,
+      "support": "2->1,3->1,3->2",
+      "count": 3,
+      "bowed": false,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 104,
+      "support": "1->2,1<->2,1<->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 105,
+      "support": "1->3,1<->2,1<->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 106,
+      "support": "2->1,1<->2,1<->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 107,
+      "support": "2->3,1<->2,1<->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 108,
+      "support": "3->1,1<->2,1<->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 109,
+      "support": "3->2,1<->2,1<->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 110,
+      "support": "1->2,1->3,1<->2,1<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 111,
+      "support": "1->2,1->3,1<->2,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 112,
+      "support": "1->2,1->3,1<->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 113,
+      "support": "1->2,2->3,1<->2,1<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 114,
+      "support": "1->2,2->3,1<->2,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 115,
+      "support": "1->2,2->3,1<->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 116,
+      "support": "1->2,3->1,1<->2,1<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 117,
+      "support": "1->2,3->1,1<->2,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 118,
+      "support": "1->2,3->1,1<->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 119,
+      "support": "1->2,3->2,1<->2,1<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 120,
+      "support": "1->2,3->2,1<->2,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho13"
+      ]
+    },
+    {
+      "index": 121,
+      "support": "1->2,3->2,1<->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 122,
+      "support": "1->3,2->1,1<->2,1<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 123,
+      "support": "1->3,2->1,1<->2,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 124,
+      "support": "1->3,2->1,1<->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 125,
+      "support": "1->3,2->3,1<->2,1<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 126,
+      "support": "1->3,2->3,1<->2,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 127,
+      "support": "1->3,2->3,1<->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho12"
+      ]
+    },
+    {
+      "index": 128,
+      "support": "1->3,3->2,1<->2,1<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 129,
+      "support": "1->3,3->2,1<->2,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 130,
+      "support": "1->3,3->2,1<->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 131,
+      "support": "2->1,2->3,1<->2,1<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 132,
+      "support": "2->1,2->3,1<->2,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 133,
+      "support": "2->1,2->3,1<->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 134,
+      "support": "2->1,3->1,1<->2,1<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 5,
+      "vanishing": [
+        "rho23"
+      ]
+    },
+    {
+      "index": 135,
+      "support": "2->1,3->1,1<->2,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 136,
+      "support": "2->1,3->1,1<->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 137,
+      "support": "2->1,3->2,1<->2,1<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 138,
+      "support": "2->1,3->2,1<->2,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 139,
+      "support": "2->1,3->2,1<->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 140,
+      "support": "2->3,3->1,1<->2,1<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 141,
+      "support": "2->3,3->1,1<->2,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 142,
+      "support": "2->3,3->1,1<->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 143,
+      "support": "3->1,3->2,1<->2,1<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 144,
+      "support": "3->1,3->2,1<->2,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 145,
+      "support": "3->1,3->2,1<->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 146,
+      "support": "1->2,1->3,2->3,1<->2",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 147,
+      "support": "1->2,1->3,2->3,1<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 148,
+      "support": "1->2,1->3,2->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 149,
+      "support": "1->2,1->3,3->2,1<->2",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 150,
+      "support": "1->2,1->3,3->2,1<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 151,
+      "support": "1->2,1->3,3->2,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 152,
+      "support": "1->2,3->1,3->2,1<->2",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 153,
+      "support": "1->2,3->1,3->2,1<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 154,
+      "support": "1->2,3->1,3->2,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 155,
+      "support": "1->3,2->1,2->3,1<->2",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 156,
+      "support": "1->3,2->1,2->3,1<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 157,
+      "support": "1->3,2->1,2->3,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 158,
+      "support": "2->1,2->3,3->1,1<->2",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 159,
+      "support": "2->1,2->3,3->1,1<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 160,
+      "support": "2->1,2->3,3->1,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 161,
+      "support": "2->1,3->1,3->2,1<->2",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 162,
+      "support": "2->1,3->1,3->2,1<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 163,
+      "support": "2->1,3->1,3->2,2<->3",
+      "count": 4,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 164,
+      "support": "1->2,1->3,1<->2,1<->3,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 165,
+      "support": "1->2,2->3,1<->2,1<->3,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 166,
+      "support": "1->2,3->1,1<->2,1<->3,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 167,
+      "support": "1->2,3->2,1<->2,1<->3,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 168,
+      "support": "1->3,2->1,1<->2,1<->3,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 169,
+      "support": "1->3,2->3,1<->2,1<->3,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 170,
+      "support": "1->3,3->2,1<->2,1<->3,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 171,
+      "support": "2->1,2->3,1<->2,1<->3,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 172,
+      "support": "2->1,3->1,1<->2,1<->3,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 173,
+      "support": "2->1,3->2,1<->2,1<->3,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 174,
+      "support": "2->3,3->1,1<->2,1<->3,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 175,
+      "support": "3->1,3->2,1<->2,1<->3,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 176,
+      "support": "1->2,1->3,2->3,1<->2,1<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 177,
+      "support": "1->2,1->3,2->3,1<->2,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 178,
+      "support": "1->2,1->3,2->3,1<->3,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 179,
+      "support": "1->2,1->3,3->2,1<->2,1<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 180,
+      "support": "1->2,1->3,3->2,1<->2,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 181,
+      "support": "1->2,1->3,3->2,1<->3,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 182,
+      "support": "1->2,3->1,3->2,1<->2,1<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 183,
+      "support": "1->2,3->1,3->2,1<->2,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 184,
+      "support": "1->2,3->1,3->2,1<->3,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 185,
+      "support": "1->3,2->1,2->3,1<->2,1<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 186,
+      "support": "1->3,2->1,2->3,1<->2,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 187,
+      "support": "1->3,2->1,2->3,1<->3,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 188,
+      "support": "2->1,2->3,3->1,1<->2,1<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 189,
+      "support": "2->1,2->3,3->1,1<->2,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 190,
+      "support": "2->1,2->3,3->1,1<->3,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 191,
+      "support": "2->1,3->1,3->2,1<->2,1<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 192,
+      "support": "2->1,3->1,3->2,1<->2,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 193,
+      "support": "2->1,3->1,3->2,1<->3,2<->3",
+      "count": 5,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 194,
+      "support": "1->2,1->3,2->3,1<->2,1<->3,2<->3",
+      "count": 6,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 195,
+      "support": "1->2,1->3,3->2,1<->2,1<->3,2<->3",
+      "count": 6,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 196,
+      "support": "1->2,3->1,3->2,1<->2,1<->3,2<->3",
+      "count": 6,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 197,
+      "support": "1->3,2->1,2->3,1<->2,1<->3,2<->3",
+      "count": 6,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 198,
+      "support": "2->1,2->3,3->1,1<->2,1<->3,2<->3",
+      "count": 6,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    },
+    {
+      "index": 199,
+      "support": "2->1,3->1,3->2,1<->2,1<->3,2<->3",
+      "count": 6,
+      "bowed": true,
+      "dim": 6,
+      "vanishing": []
+    }
+  ],
+  "designs": {
+    "G1": {
+      "label": "chain",
+      "B": [
+        [
+          0.0,
+          0.8,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.7
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "Omega": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "Sigma": [
+        [
+          1.0,
+          0.8,
+          -0.5599999999999999
+        ],
+        [
+          0.8,
+          1.6400000000000001,
+          -1.148
+        ],
+        [
+          -0.5599999999999999,
+          -1.148,
+          1.8035999999999999
+        ]
+      ],
+      "l_star": 1.5,
+      "generating_support": "1->2,2->3",
+      "e_star": 2,
+      "generating_class": "dim5|rho13.2",
+      "generating_class_dim": 5,
+      "generating_class_vanishing": [
+        "rho13.2"
+      ],
+      "generating_support_gap": 0.0,
+      "n_exactly_fitting": 136,
+      "minimal_fitting_count": 2,
+      "minimal_count_equals_e_star": true,
+      "E_min_indices": [
+        21,
+        22,
+        32,
+        38,
+        40
+      ],
+      "E_min_names": [
+        "2->1,2<->3",
+        "2->3,1<->2",
+        "1->2,2->3",
+        "2->1,2->3",
+        "2->1,3->2"
+      ],
+      "E_min": [
+        {
+          "support": "2->1,2<->3",
+          "count": 2,
+          "bowed": false,
+          "dim": 5,
+          "vanishing": [
+            "rho13.2"
+          ],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.4878048780487803,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.6097560975609756,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.6400000000000001,
+              -1.148
+            ],
+            [
+              0.0,
+              -1.148,
+              1.8035999999999999
+            ]
+          ],
+          "min_abs_coordinate": 0.4878048780487803
+        },
+        {
+          "support": "2->3,1<->2",
+          "count": 2,
+          "bowed": false,
+          "dim": 5,
+          "vanishing": [
+            "rho13.2"
+          ],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -0.6999999999999997
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.8,
+              0.0
+            ],
+            [
+              0.8,
+              1.6400000000000001,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "min_abs_coordinate": 0.6999999999999997
+        },
+        {
+          "support": "1->2,2->3",
+          "count": 2,
+          "bowed": false,
+          "dim": 5,
+          "vanishing": [
+            "rho13.2"
+          ],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.8,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -0.6999999999999998
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "min_abs_coordinate": 0.6999999999999998
+        },
+        {
+          "support": "2->1,2->3",
+          "count": 2,
+          "bowed": false,
+          "dim": 5,
+          "vanishing": [
+            "rho13.2"
+          ],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.4878048780487805,
+              0.0,
+              -0.6999999999999998
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.6097560975609756,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.6400000000000001,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "min_abs_coordinate": 0.4878048780487805
+        },
+        {
+          "support": "2->1,3->2",
+          "count": 2,
+          "bowed": false,
+          "dim": 5,
+          "vanishing": [
+            "rho13.2"
+          ],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.4878048780487805,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -0.6365047682412952,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.6097560975609756,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.9092925260589932,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.8035999999999999
+            ]
+          ],
+          "min_abs_coordinate": 0.4878048780487805
+        }
+      ],
+      "all_E_min_in_generating_class": true,
+      "n_generating_class_supports_with_e_star_edges": 5,
+      "smallest_gap_nonfitting_count_le_e_star": 0.09550427380371196,
+      "smallest_gap_support": "1->2,2<->3",
+      "largest_gap_fitting": 0.0,
+      "near_fitting_anomalies": [],
+      "hierarchy_repairs": [],
+      "fit_exactly_only_outside_K": [
+        {
+          "support": "1->2,1<->2,1<->3",
+          "count": 3,
+          "gap_in_K": 8.908297284371258e-05,
+          "relaxed_gap": -2.220446049250313e-16,
+          "relaxed_max_abs_B": 2.0499999986547897,
+          "relaxed_omega_eig": [
+            0.1591599201455543,
+            3.307080309402053
+          ],
+          "in_generating_class": false
+        },
+        {
+          "support": "1->2,3->1,1<->2",
+          "count": 3,
+          "gap_in_K": 8.908297284326849e-05,
+          "relaxed_gap": -2.220446049250313e-16,
+          "relaxed_max_abs_B": 2.0499999726827656,
+          "relaxed_omega_eig": [
+            0.17238994465952096,
+            3.216235513771723
+          ],
+          "in_generating_class": false
+        },
+        {
+          "support": "1->2,3->1,1<->2,1<->3",
+          "count": 4,
+          "gap_in_K": 8.908297284304645e-05,
+          "relaxed_gap": 0.0,
+          "relaxed_max_abs_B": 2.0499999998844323,
+          "relaxed_omega_eig": [
+            0.1723899408080659,
+            3.216235585627344
+          ],
+          "in_generating_class": false
+        }
+      ],
+      "bound_touch_supports": [
+        {
+          "support": "1->2,1<->2,1<->3",
+          "B_bound": true,
+          "B_bound_binding": true,
+          "spectral_bound": false,
+          "gap": 8.908297284371258e-05
+        },
+        {
+          "support": "1->2,3->1,1<->2",
+          "B_bound": true,
+          "B_bound_binding": true,
+          "spectral_bound": false,
+          "gap": 8.908297284326849e-05
+        },
+        {
+          "support": "1->2,3->1,1<->2,1<->3",
+          "B_bound": true,
+          "B_bound_binding": true,
+          "spectral_bound": false,
+          "gap": 8.908297284304645e-05
+        },
+        {
+          "support": "1->3,2->3,1<->2,2<->3",
+          "B_bound": true,
+          "B_bound_binding": false,
+          "spectral_bound": false,
+          "gap": -8.881784197001252e-16
+        },
+        {
+          "support": "2->1,3->1,3->2,1<->2",
+          "B_bound": true,
+          "B_bound_binding": false,
+          "spectral_bound": false,
+          "gap": -4.440892098500626e-16
+        },
+        {
+          "support": "1->2,3->1,3->2,1<->3,2<->3",
+          "B_bound": true,
+          "B_bound_binding": false,
+          "spectral_bound": false,
+          "gap": -6.661338147750939e-16
+        }
+      ],
+      "E_min_touching_bound": [],
+      "relaxed_minimal_fitting_count": 2,
+      "gaps": {
+        "empty": 0.5422404547004493,
+        "1<->2": 0.2948923337823959,
+        "1<->3": 0.4467361808967374,
+        "2<->3": 0.24734812091805347,
+        "1->2": 0.2948923337823959,
+        "1->3": 0.4467361808967374,
+        "2->1": 0.2948923337823959,
+        "2->3": 0.24734812091805347,
+        "3->1": 0.4467361808967374,
+        "3->2": 0.24734812091805347,
+        "1<->2,1<->3": 0.2948923337823959,
+        "1<->2,2<->3": 0.09550427380371218,
+        "1<->3,2<->3": 0.24734812091805347,
+        "1->2,1<->2": 0.2948923337823959,
+        "1->2,1<->3": 0.19938805997868392,
+        "1->2,2<->3": 0.09550427380371196,
+        "1->3,1<->2": 0.1993880599786837,
+        "1->3,1<->3": 0.4467361808967374,
+        "1->3,2<->3": 0.24734812091805347,
+        "2->1,1<->2": 0.2948923337823959,
+        "2->1,1<->3": 0.2948923337823959,
+        "2->1,2<->3": 0.0,
+        "2->3,1<->2": 0.0,
+        "2->3,1<->3": 0.24734812091805347,
+        "2->3,2<->3": 0.24734812091805347,
+        "3->1,1<->2": 0.2948923337823959,
+        "3->1,1<->3": 0.44673618089673717,
+        "3->1,2<->3": 0.1518438471143413,
+        "3->2,1<->2": 0.09550427380371218,
+        "3->2,1<->3": 0.1518438471143415,
+        "3->2,2<->3": 0.24734812091805325,
+        "1->2,1->3": 0.19938805997868392,
+        "1->2,2->3": 0.0,
+        "1->2,3->1": 0.19938805997868392,
+        "1->2,3->2": 0.09550427380371218,
+        "1->3,2->1": 0.19938805997868392,
+        "1->3,2->3": 0.24734812091805347,
+        "1->3,3->2": 0.1518438471143415,
+        "2->1,2->3": 0.0,
+        "2->1,3->1": 0.2948923337823959,
+        "2->1,3->2": 0.0,
+        "2->3,3->1": 0.1518438471143415,
+        "3->1,3->2": 0.1518438471143415,
+        "1<->2,1<->3,2<->3": 0.0,
+        "1->2,1<->2,1<->3": 8.908297284371258e-05,
+        "1->2,1<->2,2<->3": 0.09550427380371151,
+        "1->2,1<->3,2<->3": -2.220446049250313e-16,
+        "1->3,1<->2,1<->3": -2.220446049250313e-16,
+        "1->3,1<->2,2<->3": -2.220446049250313e-16,
+        "1->3,1<->3,2<->3": 0.24734812091805325,
+        "2->1,1<->2,1<->3": 0.2948923337823959,
+        "2->1,1<->2,2<->3": 0.0,
+        "2->1,1<->3,2<->3": 0.0,
+        "2->3,1<->2,1<->3": 0.0,
+        "2->3,1<->2,2<->3": 0.0,
+        "2->3,1<->3,2<->3": 0.24734812091805347,
+        "3->1,1<->2,1<->3": 0.29489233378239565,
+        "3->1,1<->2,2<->3": 0.0,
+        "3->1,1<->3,2<->3": 0.0,
+        "3->2,1<->2,1<->3": -2.220446049250313e-16,
+        "3->2,1<->2,2<->3": 0.09550427380371218,
+        "3->2,1<->3,2<->3": -4.440892098500626e-16,
+        "1->2,1->3,1<->2": 0.1993880599786837,
+        "1->2,1->3,1<->3": 0.1993880599786837,
+        "1->2,1->3,2<->3": -2.220446049250313e-16,
+        "1->2,2->3,1<->2": -4.440892098500626e-16,
+        "1->2,2->3,1<->3": 0.0,
+        "1->2,2->3,2<->3": 0.0,
+        "1->2,3->1,1<->2": 8.908297284326849e-05,
+        "1->2,3->1,1<->3": 0.19938805997868325,
+        "1->2,3->1,2<->3": 0.0,
+        "1->2,3->2,1<->2": 0.09550427380371174,
+        "1->2,3->2,1<->3": 0.0,
+        "1->2,3->2,2<->3": 0.09550427380371129,
+        "1->3,2->1,1<->2": 0.1993880599786837,
+        "1->3,2->1,1<->3": -4.440892098500626e-16,
+        "1->3,2->1,2<->3": 0.0,
+        "1->3,2->3,1<->2": 0.0,
+        "1->3,2->3,1<->3": 0.24734812091805347,
+        "1->3,2->3,2<->3": 0.24734812091805325,
+        "1->3,3->2,1<->2": 0.0,
+        "1->3,3->2,1<->3": 0.1518438471143413,
+        "1->3,3->2,2<->3": -2.220446049250313e-16,
+        "2->1,2->3,1<->2": -2.220446049250313e-16,
+        "2->1,2->3,1<->3": 0.0,
+        "2->1,2->3,2<->3": 0.0,
+        "2->1,3->1,1<->2": 0.29489233378239543,
+        "2->1,3->1,1<->3": 0.2948923337823959,
+        "2->1,3->1,2<->3": 0.0,
+        "2->1,3->2,1<->2": 0.0,
+        "2->1,3->2,1<->3": 0.0,
+        "2->1,3->2,2<->3": 0.0,
+        "2->3,3->1,1<->2": -2.220446049250313e-16,
+        "2->3,3->1,1<->3": 0.0,
+        "2->3,3->1,2<->3": 0.1518438471143415,
+        "3->1,3->2,1<->2": 0.0,
+        "3->1,3->2,1<->3": 0.1518438471143413,
+        "3->1,3->2,2<->3": 0.15184384711434107,
+        "1->2,1->3,2->3": 0.0,
+        "1->2,1->3,3->2": 0.0,
+        "1->2,3->1,3->2": 0.0,
+        "1->3,2->1,2->3": 0.0,
+        "2->1,2->3,3->1": 0.0,
+        "2->1,3->1,3->2": 0.0,
+        "1->2,1<->2,1<->3,2<->3": -2.220446049250313e-16,
+        "1->3,1<->2,1<->3,2<->3": 0.0,
+        "2->1,1<->2,1<->3,2<->3": -2.220446049250313e-16,
+        "2->3,1<->2,1<->3,2<->3": -2.220446049250313e-16,
+        "3->1,1<->2,1<->3,2<->3": -2.220446049250313e-16,
+        "3->2,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "1->2,1->3,1<->2,1<->3": -8.881784197001252e-16,
+        "1->2,1->3,1<->2,2<->3": -2.220446049250313e-16,
+        "1->2,1->3,1<->3,2<->3": -4.440892098500626e-16,
+        "1->2,2->3,1<->2,1<->3": 0.0,
+        "1->2,2->3,1<->2,2<->3": -2.220446049250313e-16,
+        "1->2,2->3,1<->3,2<->3": -2.220446049250313e-16,
+        "1->2,3->1,1<->2,1<->3": 8.908297284304645e-05,
+        "1->2,3->1,1<->2,2<->3": -4.440892098500626e-16,
+        "1->2,3->1,1<->3,2<->3": -2.6645352591003757e-15,
+        "1->2,3->2,1<->2,1<->3": -6.661338147750939e-16,
+        "1->2,3->2,1<->2,2<->3": 0.09550427380370996,
+        "1->2,3->2,1<->3,2<->3": -4.440892098500626e-16,
+        "1->3,2->1,1<->2,1<->3": -4.440892098500626e-16,
+        "1->3,2->1,1<->2,2<->3": -6.661338147750939e-16,
+        "1->3,2->1,1<->3,2<->3": 0.0,
+        "1->3,2->3,1<->2,1<->3": -2.220446049250313e-16,
+        "1->3,2->3,1<->2,2<->3": -8.881784197001252e-16,
+        "1->3,2->3,1<->3,2<->3": 0.24734812091805347,
+        "1->3,3->2,1<->2,1<->3": -2.220446049250313e-16,
+        "1->3,3->2,1<->2,2<->3": -4.440892098500626e-16,
+        "1->3,3->2,1<->3,2<->3": -4.440892098500626e-16,
+        "2->1,2->3,1<->2,1<->3": -2.220446049250313e-16,
+        "2->1,2->3,1<->2,2<->3": -8.881784197001252e-16,
+        "2->1,2->3,1<->3,2<->3": -2.220446049250313e-16,
+        "2->1,3->1,1<->2,1<->3": 0.2948923337823959,
+        "2->1,3->1,1<->2,2<->3": -8.881784197001252e-16,
+        "2->1,3->1,1<->3,2<->3": 0.0,
+        "2->1,3->2,1<->2,1<->3": -8.881784197001252e-16,
+        "2->1,3->2,1<->2,2<->3": 0.0,
+        "2->1,3->2,1<->3,2<->3": -2.220446049250313e-16,
+        "2->3,3->1,1<->2,1<->3": -4.440892098500626e-16,
+        "2->3,3->1,1<->2,2<->3": -2.220446049250313e-16,
+        "2->3,3->1,1<->3,2<->3": -4.440892098500626e-16,
+        "3->1,3->2,1<->2,1<->3": -4.440892098500626e-16,
+        "3->1,3->2,1<->2,2<->3": -4.440892098500626e-16,
+        "3->1,3->2,1<->3,2<->3": -6.661338147750939e-16,
+        "1->2,1->3,2->3,1<->2": -4.440892098500626e-16,
+        "1->2,1->3,2->3,1<->3": -2.220446049250313e-16,
+        "1->2,1->3,2->3,2<->3": -4.440892098500626e-16,
+        "1->2,1->3,3->2,1<->2": -4.440892098500626e-16,
+        "1->2,1->3,3->2,1<->3": 0.0,
+        "1->2,1->3,3->2,2<->3": -8.881784197001252e-16,
+        "1->2,3->1,3->2,1<->2": -1.3322676295501878e-15,
+        "1->2,3->1,3->2,1<->3": 0.0,
+        "1->2,3->1,3->2,2<->3": 0.0,
+        "1->3,2->1,2->3,1<->2": -4.440892098500626e-16,
+        "1->3,2->1,2->3,1<->3": 0.0,
+        "1->3,2->1,2->3,2<->3": -4.440892098500626e-16,
+        "2->1,2->3,3->1,1<->2": -2.220446049250313e-16,
+        "2->1,2->3,3->1,1<->3": -6.661338147750939e-16,
+        "2->1,2->3,3->1,2<->3": -2.220446049250313e-16,
+        "2->1,3->1,3->2,1<->2": -4.440892098500626e-16,
+        "2->1,3->1,3->2,1<->3": -4.440892098500626e-16,
+        "2->1,3->1,3->2,2<->3": -4.440892098500626e-16,
+        "1->2,1->3,1<->2,1<->3,2<->3": -1.3322676295501878e-15,
+        "1->2,2->3,1<->2,1<->3,2<->3": -6.661338147750939e-16,
+        "1->2,3->1,1<->2,1<->3,2<->3": 0.0,
+        "1->2,3->2,1<->2,1<->3,2<->3": -1.1102230246251565e-15,
+        "1->3,2->1,1<->2,1<->3,2<->3": -6.661338147750939e-16,
+        "1->3,2->3,1<->2,1<->3,2<->3": -6.661338147750939e-16,
+        "1->3,3->2,1<->2,1<->3,2<->3": 0.0,
+        "2->1,2->3,1<->2,1<->3,2<->3": -6.661338147750939e-16,
+        "2->1,3->1,1<->2,1<->3,2<->3": 0.0,
+        "2->1,3->2,1<->2,1<->3,2<->3": 0.0,
+        "2->3,3->1,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "3->1,3->2,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "1->2,1->3,2->3,1<->2,1<->3": -2.220446049250313e-16,
+        "1->2,1->3,2->3,1<->2,2<->3": -4.440892098500626e-16,
+        "1->2,1->3,2->3,1<->3,2<->3": -4.440892098500626e-16,
+        "1->2,1->3,3->2,1<->2,1<->3": -8.881784197001252e-16,
+        "1->2,1->3,3->2,1<->2,2<->3": -1.3322676295501878e-15,
+        "1->2,1->3,3->2,1<->3,2<->3": -1.1102230246251565e-15,
+        "1->2,3->1,3->2,1<->2,1<->3": -2.220446049250313e-16,
+        "1->2,3->1,3->2,1<->2,2<->3": -4.440892098500626e-16,
+        "1->2,3->1,3->2,1<->3,2<->3": -6.661338147750939e-16,
+        "1->3,2->1,2->3,1<->2,1<->3": 0.0,
+        "1->3,2->1,2->3,1<->2,2<->3": -4.440892098500626e-16,
+        "1->3,2->1,2->3,1<->3,2<->3": -2.220446049250313e-16,
+        "2->1,2->3,3->1,1<->2,1<->3": -2.220446049250313e-16,
+        "2->1,2->3,3->1,1<->2,2<->3": -1.3322676295501878e-15,
+        "2->1,2->3,3->1,1<->3,2<->3": 0.0,
+        "2->1,3->1,3->2,1<->2,1<->3": -2.220446049250313e-16,
+        "2->1,3->1,3->2,1<->2,2<->3": -6.661338147750939e-16,
+        "2->1,3->1,3->2,1<->3,2<->3": -4.440892098500626e-16,
+        "1->2,1->3,2->3,1<->2,1<->3,2<->3": -2.220446049250313e-16,
+        "1->2,1->3,3->2,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "1->2,3->1,3->2,1<->2,1<->3,2<->3": -1.3322676295501878e-15,
+        "1->3,2->1,2->3,1<->2,1<->3,2<->3": 0.0,
+        "2->1,2->3,3->1,1<->2,1<->3,2<->3": 0.0,
+        "2->1,3->1,3->2,1<->2,1<->3,2<->3": -6.661338147750939e-16
+      }
+    },
+    "G2": {
+      "label": "confounded pair",
+      "B": [
+        [
+          0.0,
+          0.7,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "Omega": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.5
+        ],
+        [
+          0.0,
+          0.5,
+          1.0
+        ]
+      ],
+      "Sigma": [
+        [
+          1.0,
+          0.7,
+          0.0
+        ],
+        [
+          0.7,
+          1.49,
+          0.5
+        ],
+        [
+          0.0,
+          0.5,
+          1.0
+        ]
+      ],
+      "l_star": 1.3561589637741096,
+      "generating_support": "1->2,2<->3",
+      "e_star": 2,
+      "generating_class": "dim5|rho13",
+      "generating_class_dim": 5,
+      "generating_class_vanishing": [
+        "rho13"
+      ],
+      "generating_support_gap": 0.0,
+      "n_exactly_fitting": 133,
+      "minimal_fitting_count": 2,
+      "minimal_count_equals_e_star": true,
+      "E_min_indices": [
+        11,
+        15,
+        28,
+        34
+      ],
+      "E_min_names": [
+        "1<->2,2<->3",
+        "1->2,2<->3",
+        "3->2,1<->2",
+        "1->2,3->2"
+      ],
+      "E_min": [
+        {
+          "support": "1<->2,2<->3",
+          "count": 2,
+          "bowed": false,
+          "dim": 5,
+          "vanishing": [
+            "rho13"
+          ],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.7,
+              0.0
+            ],
+            [
+              0.7,
+              1.49,
+              0.5
+            ],
+            [
+              0.0,
+              0.5,
+              1.0
+            ]
+          ],
+          "min_abs_coordinate": 0.5
+        },
+        {
+          "support": "1->2,2<->3",
+          "count": 2,
+          "bowed": false,
+          "dim": 5,
+          "vanishing": [
+            "rho13"
+          ],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.6999999999992356,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.5
+            ],
+            [
+              0.0,
+              0.5,
+              1.0
+            ]
+          ],
+          "min_abs_coordinate": 0.5
+        },
+        {
+          "support": "3->2,1<->2",
+          "count": 2,
+          "bowed": false,
+          "dim": 5,
+          "vanishing": [
+            "rho13"
+          ],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.5,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.7,
+              0.0
+            ],
+            [
+              0.7,
+              1.24,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "min_abs_coordinate": 0.5
+        },
+        {
+          "support": "1->2,3->2",
+          "count": 2,
+          "bowed": false,
+          "dim": 5,
+          "vanishing": [
+            "rho13"
+          ],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.7,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.5,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.75,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "min_abs_coordinate": 0.5
+        }
+      ],
+      "all_E_min_in_generating_class": true,
+      "n_generating_class_supports_with_e_star_edges": 4,
+      "smallest_gap_nonfitting_count_le_e_star": 0.05200866605567911,
+      "smallest_gap_support": "2->3,1<->2",
+      "largest_gap_fitting": 0.0,
+      "near_fitting_anomalies": [],
+      "hierarchy_repairs": [],
+      "fit_exactly_only_outside_K": [],
+      "bound_touch_supports": [
+        {
+          "support": "1->2,1<->2,1<->3",
+          "B_bound": true,
+          "B_bound_binding": true,
+          "spectral_bound": false,
+          "gap": 0.01531044297816253
+        },
+        {
+          "support": "3->2,1<->3,2<->3",
+          "B_bound": true,
+          "B_bound_binding": true,
+          "spectral_bound": false,
+          "gap": 0.03382932423690721
+        },
+        {
+          "support": "1->2,3->1,1<->2",
+          "B_bound": true,
+          "B_bound_binding": true,
+          "spectral_bound": false,
+          "gap": 0.01531044297816253
+        },
+        {
+          "support": "1->3,3->2,2<->3",
+          "B_bound": true,
+          "B_bound_binding": true,
+          "spectral_bound": false,
+          "gap": 0.0338293242369061
+        },
+        {
+          "support": "1->2,3->1,1<->2,1<->3",
+          "B_bound": true,
+          "B_bound_binding": true,
+          "spectral_bound": false,
+          "gap": 0.01531044297816253
+        },
+        {
+          "support": "1->2,3->1,1<->3,2<->3",
+          "B_bound": true,
+          "B_bound_binding": false,
+          "spectral_bound": false,
+          "gap": -8.881784197001252e-16
+        },
+        {
+          "support": "1->2,3->2,1<->2,1<->3",
+          "B_bound": true,
+          "B_bound_binding": false,
+          "spectral_bound": false,
+          "gap": -1.3322676295501878e-15
+        },
+        {
+          "support": "1->3,2->3,1<->2,2<->3",
+          "B_bound": true,
+          "B_bound_binding": false,
+          "spectral_bound": false,
+          "gap": -6.661338147750939e-16
+        },
+        {
+          "support": "1->3,3->2,1<->3,2<->3",
+          "B_bound": true,
+          "B_bound_binding": true,
+          "spectral_bound": false,
+          "gap": 0.03382932423690721
+        },
+        {
+          "support": "2->1,3->1,1<->3,2<->3",
+          "B_bound": true,
+          "B_bound_binding": false,
+          "spectral_bound": false,
+          "gap": -4.440892098500626e-16
+        },
+        {
+          "support": "1->2,1->3,3->2,2<->3",
+          "B_bound": true,
+          "B_bound_binding": false,
+          "spectral_bound": false,
+          "gap": -8.881784197001252e-16
+        },
+        {
+          "support": "1->2,1->3,3->2,1<->3,2<->3",
+          "B_bound": true,
+          "B_bound_binding": false,
+          "spectral_bound": false,
+          "gap": -8.881784197001252e-16
+        }
+      ],
+      "E_min_touching_bound": [],
+      "relaxed_minimal_fitting_count": 2,
+      "gaps": {
+        "empty": 0.3432290962045743,
+        "1<->2": 0.1438410362258904,
+        "1<->3": 0.3432290962045743,
+        "2<->3": 0.25139672603436325,
+        "1->2": 0.1438410362258904,
+        "1->3": 0.3432290962045743,
+        "2->1": 0.1438410362258904,
+        "2->3": 0.251396726034363,
+        "3->1": 0.3432290962045743,
+        "3->2": 0.251396726034363,
+        "1<->2,1<->3": 0.09183237017021106,
+        "1<->2,2<->3": 0.0,
+        "1<->3,2<->3": 0.19938805997868392,
+        "1->2,1<->2": 0.14384103622589017,
+        "1->2,1<->3": 0.1438410362258904,
+        "1->2,2<->3": 0.0,
+        "1->3,1<->2": 0.1438410362258904,
+        "1->3,1<->3": 0.3432290962045741,
+        "1->3,2<->3": 0.1993880599786837,
+        "2->1,1<->2": 0.14384103622588995,
+        "2->1,1<->3": 0.09183237017021106,
+        "2->1,2<->3": 0.05200866605567933,
+        "2->3,1<->2": 0.05200866605567911,
+        "2->3,1<->3": 0.1993880599786837,
+        "2->3,2<->3": 0.251396726034363,
+        "3->1,1<->2": 0.09183237017021106,
+        "3->1,1<->3": 0.3432290962045741,
+        "3->1,2<->3": 0.25139672603436325,
+        "3->2,1<->2": 0.0,
+        "3->2,1<->3": 0.251396726034363,
+        "3->2,2<->3": 0.251396726034363,
+        "1->2,1->3": 0.1438410362258904,
+        "1->2,2->3": 0.05200866605567933,
+        "1->2,3->1": 0.1438410362258904,
+        "1->2,3->2": 0.0,
+        "1->3,2->1": 0.1438410362258904,
+        "1->3,2->3": 0.1993880599786837,
+        "1->3,3->2": 0.251396726034363,
+        "2->1,2->3": 0.05200866605567933,
+        "2->1,3->1": 0.09183237017021106,
+        "2->1,3->2": 0.05200866605567933,
+        "2->3,3->1": 0.251396726034363,
+        "3->1,3->2": 0.251396726034363,
+        "1<->2,1<->3,2<->3": 0.0,
+        "1->2,1<->2,1<->3": 0.01531044297816253,
+        "1->2,1<->2,2<->3": -2.220446049250313e-16,
+        "1->2,1<->3,2<->3": 0.0,
+        "1->3,1<->2,1<->3": -2.220446049250313e-16,
+        "1->3,1<->2,2<->3": 0.0,
+        "1->3,1<->3,2<->3": 0.1993880599786837,
+        "2->1,1<->2,1<->3": 0.09183237017021106,
+        "2->1,1<->2,2<->3": -2.220446049250313e-16,
+        "2->1,1<->3,2<->3": 0.0,
+        "2->3,1<->2,1<->3": 0.0,
+        "2->3,1<->2,2<->3": -4.440892098500626e-16,
+        "2->3,1<->3,2<->3": 0.1993880599786837,
+        "3->1,1<->2,1<->3": 0.09183237017021062,
+        "3->1,1<->2,2<->3": 0.0,
+        "3->1,1<->3,2<->3": 0.0,
+        "3->2,1<->2,1<->3": 0.0,
+        "3->2,1<->2,2<->3": -4.440892098500626e-16,
+        "3->2,1<->3,2<->3": 0.03382932423690721,
+        "1->2,1->3,1<->2": 0.1438410362258904,
+        "1->2,1->3,1<->3": 0.14384103622589017,
+        "1->2,1->3,2<->3": 0.0,
+        "1->2,2->3,1<->2": 0.05200866605567889,
+        "1->2,2->3,1<->3": -2.220446049250313e-16,
+        "1->2,2->3,2<->3": -2.220446049250313e-16,
+        "1->2,3->1,1<->2": 0.01531044297816253,
+        "1->2,3->1,1<->3": 0.1438410362258904,
+        "1->2,3->1,2<->3": 0.0,
+        "1->2,3->2,1<->2": -2.220446049250313e-16,
+        "1->2,3->2,1<->3": -2.220446049250313e-16,
+        "1->2,3->2,2<->3": -2.220446049250313e-16,
+        "1->3,2->1,1<->2": 0.14384103622588995,
+        "1->3,2->1,1<->3": -2.220446049250313e-16,
+        "1->3,2->1,2<->3": 0.0,
+        "1->3,2->3,1<->2": 0.0,
+        "1->3,2->3,1<->3": 0.1993880599786837,
+        "1->3,2->3,2<->3": 0.1993880599786837,
+        "1->3,3->2,1<->2": 0.0,
+        "1->3,3->2,1<->3": 0.251396726034363,
+        "1->3,3->2,2<->3": 0.0338293242369061,
+        "2->1,2->3,1<->2": 0.05200866605567911,
+        "2->1,2->3,1<->3": 0.0,
+        "2->1,2->3,2<->3": 0.05200866605567911,
+        "2->1,3->1,1<->2": 0.09183237017021062,
+        "2->1,3->1,1<->3": 0.09183237017021106,
+        "2->1,3->1,2<->3": 0.0,
+        "2->1,3->2,1<->2": -2.220446049250313e-16,
+        "2->1,3->2,1<->3": 0.0,
+        "2->1,3->2,2<->3": 0.05200866605567933,
+        "2->3,3->1,1<->2": 0.0,
+        "2->3,3->1,1<->3": -4.440892098500626e-16,
+        "2->3,3->1,2<->3": 0.251396726034363,
+        "3->1,3->2,1<->2": 0.0,
+        "3->1,3->2,1<->3": 0.251396726034363,
+        "3->1,3->2,2<->3": 0.251396726034363,
+        "1->2,1->3,2->3": 0.0,
+        "1->2,1->3,3->2": 0.0,
+        "1->2,3->1,3->2": 0.0,
+        "1->3,2->1,2->3": 0.0,
+        "2->1,2->3,3->1": 0.0,
+        "2->1,3->1,3->2": 0.0,
+        "1->2,1<->2,1<->3,2<->3": -8.881784197001252e-16,
+        "1->3,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "2->1,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "2->3,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "3->1,1<->2,1<->3,2<->3": -2.220446049250313e-16,
+        "3->2,1<->2,1<->3,2<->3": 0.0,
+        "1->2,1->3,1<->2,1<->3": -4.440892098500626e-16,
+        "1->2,1->3,1<->2,2<->3": -8.881784197001252e-16,
+        "1->2,1->3,1<->3,2<->3": 0.0,
+        "1->2,2->3,1<->2,1<->3": -6.661338147750939e-16,
+        "1->2,2->3,1<->2,2<->3": -2.220446049250313e-16,
+        "1->2,2->3,1<->3,2<->3": -1.1102230246251565e-15,
+        "1->2,3->1,1<->2,1<->3": 0.01531044297816253,
+        "1->2,3->1,1<->2,2<->3": -6.661338147750939e-16,
+        "1->2,3->1,1<->3,2<->3": -8.881784197001252e-16,
+        "1->2,3->2,1<->2,1<->3": -1.3322676295501878e-15,
+        "1->2,3->2,1<->2,2<->3": 0.0,
+        "1->2,3->2,1<->3,2<->3": -4.440892098500626e-16,
+        "1->3,2->1,1<->2,1<->3": -4.440892098500626e-16,
+        "1->3,2->1,1<->2,2<->3": -8.881784197001252e-16,
+        "1->3,2->1,1<->3,2<->3": -4.440892098500626e-16,
+        "1->3,2->3,1<->2,1<->3": -4.440892098500626e-16,
+        "1->3,2->3,1<->2,2<->3": -6.661338147750939e-16,
+        "1->3,2->3,1<->3,2<->3": 0.1993880599786837,
+        "1->3,3->2,1<->2,1<->3": -2.220446049250313e-16,
+        "1->3,3->2,1<->2,2<->3": -6.661338147750939e-16,
+        "1->3,3->2,1<->3,2<->3": 0.03382932423690721,
+        "2->1,2->3,1<->2,1<->3": -2.220446049250313e-16,
+        "2->1,2->3,1<->2,2<->3": -4.440892098500626e-16,
+        "2->1,2->3,1<->3,2<->3": -6.661338147750939e-16,
+        "2->1,3->1,1<->2,1<->3": 0.09183237017021084,
+        "2->1,3->1,1<->2,2<->3": -4.440892098500626e-16,
+        "2->1,3->1,1<->3,2<->3": -4.440892098500626e-16,
+        "2->1,3->2,1<->2,1<->3": -4.440892098500626e-16,
+        "2->1,3->2,1<->2,2<->3": -1.3322676295501878e-15,
+        "2->1,3->2,1<->3,2<->3": -2.220446049250313e-16,
+        "2->3,3->1,1<->2,1<->3": 0.0,
+        "2->3,3->1,1<->2,2<->3": -1.3322676295501878e-15,
+        "2->3,3->1,1<->3,2<->3": -1.1102230246251565e-15,
+        "3->1,3->2,1<->2,1<->3": -2.220446049250313e-16,
+        "3->1,3->2,1<->2,2<->3": -4.440892098500626e-16,
+        "3->1,3->2,1<->3,2<->3": -4.440892098500626e-16,
+        "1->2,1->3,2->3,1<->2": -4.440892098500626e-16,
+        "1->2,1->3,2->3,1<->3": -2.220446049250313e-16,
+        "1->2,1->3,2->3,2<->3": -4.440892098500626e-16,
+        "1->2,1->3,3->2,1<->2": -2.220446049250313e-16,
+        "1->2,1->3,3->2,1<->3": -2.220446049250313e-16,
+        "1->2,1->3,3->2,2<->3": -8.881784197001252e-16,
+        "1->2,3->1,3->2,1<->2": -4.440892098500626e-16,
+        "1->2,3->1,3->2,1<->3": -2.220446049250313e-16,
+        "1->2,3->1,3->2,2<->3": -4.440892098500626e-16,
+        "1->3,2->1,2->3,1<->2": 0.0,
+        "1->3,2->1,2->3,1<->3": -4.440892098500626e-16,
+        "1->3,2->1,2->3,2<->3": -1.3322676295501878e-15,
+        "2->1,2->3,3->1,1<->2": -4.440892098500626e-16,
+        "2->1,2->3,3->1,1<->3": -4.440892098500626e-16,
+        "2->1,2->3,3->1,2<->3": -4.440892098500626e-16,
+        "2->1,3->1,3->2,1<->2": -4.440892098500626e-16,
+        "2->1,3->1,3->2,1<->3": -6.661338147750939e-16,
+        "2->1,3->1,3->2,2<->3": -2.220446049250313e-16,
+        "1->2,1->3,1<->2,1<->3,2<->3": -1.1102230246251565e-15,
+        "1->2,2->3,1<->2,1<->3,2<->3": -8.881784197001252e-16,
+        "1->2,3->1,1<->2,1<->3,2<->3": 0.0,
+        "1->2,3->2,1<->2,1<->3,2<->3": -2.220446049250313e-16,
+        "1->3,2->1,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "1->3,2->3,1<->2,1<->3,2<->3": -2.220446049250313e-16,
+        "1->3,3->2,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "2->1,2->3,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "2->1,3->1,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "2->1,3->2,1<->2,1<->3,2<->3": -1.5543122344752192e-15,
+        "2->3,3->1,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "3->1,3->2,1<->2,1<->3,2<->3": -2.220446049250313e-16,
+        "1->2,1->3,2->3,1<->2,1<->3": -4.440892098500626e-16,
+        "1->2,1->3,2->3,1<->2,2<->3": -4.440892098500626e-16,
+        "1->2,1->3,2->3,1<->3,2<->3": -2.220446049250313e-16,
+        "1->2,1->3,3->2,1<->2,1<->3": -4.440892098500626e-16,
+        "1->2,1->3,3->2,1<->2,2<->3": -2.220446049250313e-16,
+        "1->2,1->3,3->2,1<->3,2<->3": -8.881784197001252e-16,
+        "1->2,3->1,3->2,1<->2,1<->3": -8.881784197001252e-16,
+        "1->2,3->1,3->2,1<->2,2<->3": -1.3322676295501878e-15,
+        "1->2,3->1,3->2,1<->3,2<->3": 0.0,
+        "1->3,2->1,2->3,1<->2,1<->3": -4.440892098500626e-16,
+        "1->3,2->1,2->3,1<->2,2<->3": -1.3322676295501878e-15,
+        "1->3,2->1,2->3,1<->3,2<->3": -8.881784197001252e-16,
+        "2->1,2->3,3->1,1<->2,1<->3": -8.881784197001252e-16,
+        "2->1,2->3,3->1,1<->2,2<->3": -4.440892098500626e-16,
+        "2->1,2->3,3->1,1<->3,2<->3": -6.661338147750939e-16,
+        "2->1,3->1,3->2,1<->2,1<->3": -4.440892098500626e-16,
+        "2->1,3->1,3->2,1<->2,2<->3": -4.440892098500626e-16,
+        "2->1,3->1,3->2,1<->3,2<->3": -1.3322676295501878e-15,
+        "1->2,1->3,2->3,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "1->2,1->3,3->2,1<->2,1<->3,2<->3": 0.0,
+        "1->2,3->1,3->2,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "1->3,2->1,2->3,1<->2,1<->3,2<->3": -1.3322676295501878e-15,
+        "2->1,2->3,3->1,1<->2,1<->3,2<->3": -2.220446049250313e-16,
+        "2->1,3->1,3->2,1<->2,1<->3,2<->3": -6.661338147750939e-16
+      }
+    },
+    "G3": {
+      "label": "front-door",
+      "B": [
+        [
+          0.0,
+          0.7,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.6
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "Omega": [
+        [
+          1.0,
+          0.0,
+          0.4
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.4,
+          0.0,
+          1.0
+        ]
+      ],
+      "Sigma": [
+        [
+          1.0,
+          0.7,
+          0.8200000000000001
+        ],
+        [
+          0.7,
+          1.49,
+          1.174
+        ],
+        [
+          0.8200000000000001,
+          1.174,
+          1.8723999999999998
+        ]
+      ],
+      "l_star": 1.412823306427611,
+      "generating_support": "1->2,2->3,1<->3",
+      "e_star": 3,
+      "generating_class": "dim6|",
+      "generating_class_dim": 6,
+      "generating_class_vanishing": [],
+      "generating_support_gap": 0.0,
+      "n_exactly_fitting": 130,
+      "minimal_fitting_count": 3,
+      "minimal_count_equals_e_star": true,
+      "E_min_indices": [
+        43,
+        44,
+        46,
+        47,
+        48,
+        51,
+        52,
+        53,
+        54,
+        57,
+        58,
+        59,
+        61,
+        64,
+        66,
+        67,
+        68,
+        70,
+        72,
+        75,
+        76,
+        77,
+        80,
+        82,
+        84,
+        88,
+        89,
+        90,
+        92,
+        93,
+        95,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103
+      ],
+      "E_min_names": [
+        "1<->2,1<->3,2<->3",
+        "1->2,1<->2,1<->3",
+        "1->2,1<->3,2<->3",
+        "1->3,1<->2,1<->3",
+        "1->3,1<->2,2<->3",
+        "2->1,1<->2,2<->3",
+        "2->1,1<->3,2<->3",
+        "2->3,1<->2,1<->3",
+        "2->3,1<->2,2<->3",
+        "3->1,1<->2,2<->3",
+        "3->1,1<->3,2<->3",
+        "3->2,1<->2,1<->3",
+        "3->2,1<->3,2<->3",
+        "1->2,1->3,2<->3",
+        "1->2,2->3,1<->3",
+        "1->2,2->3,2<->3",
+        "1->2,3->1,1<->2",
+        "1->2,3->1,2<->3",
+        "1->2,3->2,1<->3",
+        "1->3,2->1,1<->3",
+        "1->3,2->1,2<->3",
+        "1->3,2->3,1<->2",
+        "1->3,3->2,1<->2",
+        "1->3,3->2,2<->3",
+        "2->1,2->3,1<->3",
+        "2->1,3->1,2<->3",
+        "2->1,3->2,1<->2",
+        "2->1,3->2,1<->3",
+        "2->3,3->1,1<->2",
+        "2->3,3->1,1<->3",
+        "3->1,3->2,1<->2",
+        "1->2,1->3,2->3",
+        "1->2,1->3,3->2",
+        "1->2,3->1,3->2",
+        "1->3,2->1,2->3",
+        "2->1,2->3,3->1",
+        "2->1,3->1,3->2"
+      ],
+      "E_min": [
+        {
+          "support": "1<->2,1<->3,2<->3",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.7,
+              0.8200000000000001
+            ],
+            [
+              0.7,
+              1.49,
+              1.174
+            ],
+            [
+              0.8200000000000001,
+              1.174,
+              1.8723999999999998
+            ]
+          ],
+          "min_abs_coordinate": 0.7
+        },
+        {
+          "support": "1->2,1<->2,1<->3",
+          "count": 3,
+          "bowed": true,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": -2.220446049250313e-16,
+          "B": [
+            [
+              0.0,
+              1.4317073170731676,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0000000000000009,
+              -0.7317073170731687,
+              0.8200000000000012
+            ],
+            [
+              -0.7317073170731687,
+              1.535395597858413,
+              0.0
+            ],
+            [
+              0.8200000000000012,
+              0.0,
+              1.8723999999999998
+            ]
+          ],
+          "min_abs_coordinate": 0.7317073170731687
+        },
+        {
+          "support": "1->2,1<->3,2<->3",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.7000000000000001,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.0,
+              0.8200000000000002
+            ],
+            [
+              0.0,
+              1.0,
+              0.6
+            ],
+            [
+              0.8200000000000002,
+              0.6,
+              1.8724
+            ]
+          ],
+          "min_abs_coordinate": 0.6
+        },
+        {
+          "support": "1->3,1<->2,1<->3",
+          "count": 3,
+          "bowed": true,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              1.67714285714104
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0000000000005294,
+              0.7000000000005634,
+              -0.8571428571416375
+            ],
+            [
+              0.7000000000005634,
+              1.49,
+              0.0
+            ],
+            [
+              -0.8571428571416375,
+              0.0,
+              1.934693877547905
+            ]
+          ],
+          "min_abs_coordinate": 0.7000000000005634
+        },
+        {
+          "support": "1->3,1<->2,2<->3",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": -2.220446049250313e-16,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.8200000000199213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.7000000000099607,
+              0.0
+            ],
+            [
+              0.7000000000099607,
+              1.490000000013945,
+              0.5999999999999999
+            ],
+            [
+              0.0,
+              0.5999999999999999,
+              1.1999999999999997
+            ]
+          ],
+          "min_abs_coordinate": 0.5999999999999999
+        },
+        {
+          "support": "2->1,1<->2,2<->3",
+          "count": 3,
+          "bowed": true,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.6984667802384927,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.7490517138802333,
+              -0.34071550255536026,
+              0.0
+            ],
+            [
+              -0.34071550255536026,
+              1.4900000000000055,
+              1.1740000000000044
+            ],
+            [
+              0.0,
+              1.1740000000000044,
+              1.8723999999999998
+            ]
+          ],
+          "min_abs_coordinate": 0.34071550255536026
+        },
+        {
+          "support": "2->1,1<->3,2<->3",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.4697986577181208,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.6711409395973155,
+              0.0,
+              0.2684563758389263
+            ],
+            [
+              0.0,
+              1.49,
+              1.174
+            ],
+            [
+              0.2684563758389263,
+              1.174,
+              1.8723999999999998
+            ]
+          ],
+          "min_abs_coordinate": 0.2684563758389263
+        },
+        {
+          "support": "2->3,1<->2,1<->3",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.7879194630872483
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.7,
+              0.26845637583892634
+            ],
+            [
+              0.7,
+              1.49,
+              0.0
+            ],
+            [
+              0.26845637583892634,
+              0.0,
+              0.9473825503355704
+            ]
+          ],
+          "min_abs_coordinate": 0.26845637583892634
+        },
+        {
+          "support": "2->3,1<->2,2<->3",
+          "count": 3,
+          "bowed": true,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": -2.220446049250313e-16,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.1714285714285715
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.7,
+              0.0
+            ],
+            [
+              0.7,
+              1.4900000000000002,
+              -0.5714285714285717
+            ],
+            [
+              0.0,
+              -0.5714285714285717,
+              1.166530612244898
+            ]
+          ],
+          "min_abs_coordinate": 0.5714285714285717
+        },
+        {
+          "support": "3->1,1<->2,2<->3",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.43794061098055975,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.640888698995941,
+              0.1858577227088228,
+              0.0
+            ],
+            [
+              0.1858577227088228,
+              1.49,
+              1.174
+            ],
+            [
+              0.0,
+              1.174,
+              1.8723999999999998
+            ]
+          ],
+          "min_abs_coordinate": 0.1858577227088228
+        },
+        {
+          "support": "3->1,1<->3,2<->3",
+          "count": 3,
+          "bowed": true,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": -2.220446049250313e-16,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.5962521302835883,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.6878157935444286,
+              0.0,
+              -0.2964224879921563
+            ],
+            [
+              0.0,
+              1.49,
+              1.1739999995893222
+            ],
+            [
+              -0.2964224879921563,
+              1.1739999995893222,
+              1.8723999993528377
+            ]
+          ],
+          "min_abs_coordinate": 0.2964224879921563
+        },
+        {
+          "support": "3->2,1<->2,1<->3",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.6270027771969936,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0000000000051068,
+              0.1858577227088228,
+              0.8200000000058306
+            ],
+            [
+              0.1858577227088228,
+              0.7538987395855586,
+              0.0
+            ],
+            [
+              0.8200000000058306,
+              0.0,
+              1.8723999999999998
+            ]
+          ],
+          "min_abs_coordinate": 0.1858577227088228
+        },
+        {
+          "support": "3->2,1<->3,2<->3",
+          "count": 3,
+          "bowed": true,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.8536585365853853,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.0,
+              0.8199999999999921
+            ],
+            [
+              0.0,
+              0.8500892325996596,
+              -0.42439024390246216
+            ],
+            [
+              0.8199999999999921,
+              -0.42439024390246216,
+              1.8723999999999865
+            ]
+          ],
+          "min_abs_coordinate": 0.42439024390246216
+        },
+        {
+          "support": "1->2,1->3,2<->3",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": -2.220446049250313e-16,
+          "B": [
+            [
+              0.0,
+              0.6999999999802935,
+              0.8200000000051768
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.6
+            ],
+            [
+              0.0,
+              0.6,
+              1.1999999999999995
+            ]
+          ],
+          "min_abs_coordinate": 0.6
+        },
+        {
+          "support": "1->2,2->3,1<->3",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.699999999835125,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.6000000000225354
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.0,
+              0.3999999999842253
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.3999999999842253,
+              0.0,
+              0.9999999999873801
+            ]
+          ],
+          "min_abs_coordinate": 0.3999999999842253
+        },
+        {
+          "support": "1->2,2->3,2<->3",
+          "count": 3,
+          "bowed": true,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.7000000001093413,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.1714285712682486
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -0.5714285712682488
+            ],
+            [
+              0.0,
+              -0.5714285712682488,
+              1.1665306120616719
+            ]
+          ],
+          "min_abs_coordinate": 0.5714285712682488
+        },
+        {
+          "support": "1->2,3->1,1<->2",
+          "count": 3,
+          "bowed": true,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": -2.220446049250313e-16,
+          "B": [
+            [
+              0.0,
+              1.4317073170539645,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.4379406107296243,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.6408886989959409,
+              -0.7317073170608616,
+              0.0
+            ],
+            [
+              -0.7317073170608616,
+              1.5353955978303109,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.8723999999999998
+            ]
+          ],
+          "min_abs_coordinate": 0.4379406107296243
+        },
+        {
+          "support": "1->2,3->1,2<->3",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.2899999999961834,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.43794061097413606,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.6408886989959409,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.1681000000031296,
+              0.9362000000031295
+            ],
+            [
+              0.0,
+              0.9362000000031295,
+              1.8723999999999998
+            ]
+          ],
+          "min_abs_coordinate": 0.2899999999961834
+        },
+        {
+          "support": "1->2,3->2,1<->3",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": -2.220446049250313e-16,
+          "B": [
+            [
+              0.0,
+              0.2899999997037874,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.5000000000032104,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.0,
+              0.8200000000000001
+            ],
+            [
+              0.0,
+              0.6999999999999998,
+              0.0
+            ],
+            [
+              0.8200000000000001,
+              0.0,
+              1.8723999999999998
+            ]
+          ],
+          "min_abs_coordinate": 0.2899999997037874
+        },
+        {
+          "support": "1->3,2->1,1<->3",
+          "count": 3,
+          "bowed": true,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": -2.220446049250313e-16,
+          "B": [
+            [
+              0.0,
+              0.0,
+              1.677142857143892
+            ],
+            [
+              0.4697986577182432,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.6711409395973155,
+              0.0,
+              -0.8571428571435515
+            ],
+            [
+              0.0,
+              1.49,
+              0.0
+            ],
+            [
+              -0.8571428571435515,
+              0.0,
+              1.934693877552794
+            ]
+          ],
+          "min_abs_coordinate": 0.4697986577182432
+        },
+        {
+          "support": "1->3,2->1,2<->3",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.3999999999946981
+            ],
+            [
+              0.46979865772324064,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.6711409395973155,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.49,
+              0.8940000000037113
+            ],
+            [
+              0.0,
+              0.8940000000037113,
+              1.3764000000044534
+            ]
+          ],
+          "min_abs_coordinate": 0.3999999999946981
+        },
+        {
+          "support": "1->3,2->3,1<->2",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.40000000000195596
+            ],
+            [
+              0.0,
+              0.0,
+              0.6000000000012731
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.7,
+              0.0
+            ],
+            [
+              0.7,
+              1.49,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.8399999999999999
+            ]
+          ],
+          "min_abs_coordinate": 0.40000000000195596
+        },
+        {
+          "support": "1->3,3->2,1<->2",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": -2.220446049250313e-16,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.8199999999689472
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.500000000008779,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.2899999999928012,
+              0.0
+            ],
+            [
+              0.2899999999928012,
+              0.7840999999958247,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.1999999999999995
+            ]
+          ],
+          "min_abs_coordinate": 0.2899999999928012
+        },
+        {
+          "support": "1->3,3->2,2<->3",
+          "count": 3,
+          "bowed": true,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.8200000000000962
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.8536585365855954,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.8500892325998379,
+              -0.4243902439027144
+            ],
+            [
+              0.0,
+              -0.4243902439027144,
+              1.1999999999999997
+            ]
+          ],
+          "min_abs_coordinate": 0.4243902439027144
+        },
+        {
+          "support": "2->1,2->3,1<->3",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.4697986577196751,
+              0.0,
+              0.7879194630837564
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.6711409395973155,
+              0.0,
+              0.2684563758389263
+            ],
+            [
+              0.0,
+              1.49,
+              0.0
+            ],
+            [
+              0.2684563758389263,
+              0.0,
+              0.9473825503355704
+            ]
+          ],
+          "min_abs_coordinate": 0.2684563758389263
+        },
+        {
+          "support": "2->1,3->1,2<->3",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.24652876164836635,
+              0.0,
+              0.0
+            ],
+            [
+              0.28336639277914644,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.5950694247662228,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.49,
+              1.174
+            ],
+            [
+              0.0,
+              1.174,
+              1.8723999999999998
+            ]
+          ],
+          "min_abs_coordinate": 0.24652876164836635
+        },
+        {
+          "support": "2->1,3->2,1<->2",
+          "count": 3,
+          "bowed": true,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.6984667802415373,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.627002777179161,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.7490517138823081,
+              -0.3407155025576556,
+              0.0
+            ],
+            [
+              -0.3407155025576556,
+              0.7538987395855586,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.8723999999999998
+            ]
+          ],
+          "min_abs_coordinate": 0.3407155025576556
+        },
+        {
+          "support": "2->1,3->2,1<->3",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.24652876170154828,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.6270027771768539,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.7454166148335196,
+              0.0,
+              0.5305752337623824
+            ],
+            [
+              0.0,
+              0.7538987395855586,
+              0.0
+            ],
+            [
+              0.5305752337623824,
+              0.0,
+              1.8723999999999998
+            ]
+          ],
+          "min_abs_coordinate": 0.24652876170154828
+        },
+        {
+          "support": "2->3,3->1,1<->2",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": -2.220446049250313e-16,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.7879194631273951
+            ],
+            [
+              0.28336639280475606,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.6856263059384761,
+              0.36732785484721636,
+              0.0
+            ],
+            [
+              0.36732785484721636,
+              1.49,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.9473825503355704
+            ]
+          ],
+          "min_abs_coordinate": 0.28336639280475606
+        },
+        {
+          "support": "2->3,3->1,1<->3",
+          "count": 3,
+          "bowed": true,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.7879194716126848
+            ],
+            [
+              0.5962521284413828,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.6878157924522863,
+              0.0,
+              -0.296422486246883
+            ],
+            [
+              0.0,
+              1.49,
+              0.0
+            ],
+            [
+              -0.296422486246883,
+              0.0,
+              0.9473825503355705
+            ]
+          ],
+          "min_abs_coordinate": 0.296422486246883
+        },
+        {
+          "support": "3->1,3->2,1<->2",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.43794061098543313,
+              0.6270027771892495,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.6408886989959409,
+              0.1858577227088228,
+              0.0
+            ],
+            [
+              0.1858577227088228,
+              0.7538987395855586,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.8723999999999998
+            ]
+          ],
+          "min_abs_coordinate": 0.1858577227088228
+        },
+        {
+          "support": "1->2,1->3,2->3",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.7,
+              0.4000000000000001
+            ],
+            [
+              0.0,
+              0.0,
+              0.6
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.8399999999999999
+            ]
+          ],
+          "min_abs_coordinate": 0.4000000000000001
+        },
+        {
+          "support": "1->2,1->3,3->2",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.2899999999999998,
+              0.8200000000000001
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.5000000000000001,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.7000000000000001,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.1999999999999997
+            ]
+          ],
+          "min_abs_coordinate": 0.2899999999999998
+        },
+        {
+          "support": "1->2,3->1,3->2",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 2.220446049250313e-16,
+          "B": [
+            [
+              0.0,
+              0.2899999999999998,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.43794061098055975,
+              0.5000000000000001,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.640888698995941,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.7000000000000001,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.8723999999999998
+            ]
+          ],
+          "min_abs_coordinate": 0.2899999999999998
+        },
+        {
+          "support": "1->3,2->1,2->3",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.4000000000000001
+            ],
+            [
+              0.4697986577181208,
+              0.0,
+              0.6
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.6711409395973155,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.49,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.8399999999999999
+            ]
+          ],
+          "min_abs_coordinate": 0.4000000000000001
+        },
+        {
+          "support": "2->1,2->3,3->1",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 0.0,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.2465287616888636,
+              0.0,
+              0.7879194630872483
+            ],
+            [
+              0.2833663927458205,
+              0.0,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.5950694247662227,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.49,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.9473825503355704
+            ]
+          ],
+          "min_abs_coordinate": 0.2465287616888636
+        },
+        {
+          "support": "2->1,3->1,3->2",
+          "count": 3,
+          "bowed": false,
+          "dim": 6,
+          "vanishing": [],
+          "in_generating_class": true,
+          "gap": 2.220446049250313e-16,
+          "B": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.2465287616888636,
+              0.0,
+              0.0
+            ],
+            [
+              0.2833663927458205,
+              0.6270027771843624,
+              0.0
+            ]
+          ],
+          "Omega": [
+            [
+              0.5950694247662227,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.7538987395855586,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.8723999999999998
+            ]
+          ],
+          "min_abs_coordinate": 0.2465287616888636
+        }
+      ],
+      "all_E_min_in_generating_class": true,
+      "n_generating_class_supports_with_e_star_edges": 37,
+      "smallest_gap_nonfitting_count_le_e_star": 0.03708886315696547,
+      "smallest_gap_support": "2->3,3->1,2<->3",
+      "largest_gap_fitting": 2.220446049250313e-16,
+      "near_fitting_anomalies": [],
+      "hierarchy_repairs": [],
+      "fit_exactly_only_outside_K": [],
+      "bound_touch_supports": [
+        {
+          "support": "1->2,2->3,1<->2,1<->3",
+          "B_bound": true,
+          "B_bound_binding": false,
+          "spectral_bound": false,
+          "gap": -6.661338147750939e-16
+        },
+        {
+          "support": "2->1,2->3,3->1,1<->3",
+          "B_bound": true,
+          "B_bound_binding": false,
+          "spectral_bound": false,
+          "gap": -2.220446049250313e-16
+        },
+        {
+          "support": "1->2,1->3,2->3,1<->2,2<->3",
+          "B_bound": true,
+          "B_bound_binding": false,
+          "spectral_bound": false,
+          "gap": -6.661338147750939e-16
+        },
+        {
+          "support": "1->2,1->3,3->2,1<->3,2<->3",
+          "B_bound": true,
+          "B_bound_binding": false,
+          "spectral_bound": false,
+          "gap": -1.1102230246251565e-15
+        },
+        {
+          "support": "2->1,3->1,3->2,1<->2,2<->3",
+          "B_bound": true,
+          "B_bound_binding": false,
+          "spectral_bound": false,
+          "gap": -1.3322676295501878e-15
+        }
+      ],
+      "E_min_touching_bound": [],
+      "relaxed_minimal_fitting_count": 3,
+      "gaps": {
+        "empty": 0.600175268772962,
+        "1<->2": 0.4007872087942783,
+        "1<->3": 0.37772553194805014,
+        "2<->3": 0.2595385999818778,
+        "1->2": 0.4007872087942783,
+        "1->3": 0.37772553194805014,
+        "2->1": 0.4007872087942783,
+        "2->3": 0.259538599981878,
+        "3->1": 0.37772553194805014,
+        "3->2": 0.259538599981878,
+        "1<->2,1<->3": 0.34063666879108423,
+        "1<->2,2<->3": 0.2224497368249121,
+        "1<->3,2<->3": 0.19938805997868392,
+        "1->2,1<->2": 0.4007872087942781,
+        "1->2,1<->3": 0.17833747196936622,
+        "1->2,2<->3": 0.2224497368249121,
+        "1->3,1<->2": 0.178337471969366,
+        "1->3,1<->3": 0.3777255319480499,
+        "1->3,2<->3": 0.1993880599786837,
+        "2->1,1<->2": 0.4007872087942781,
+        "2->1,1<->3": 0.340636668791084,
+        "2->1,2<->3": 0.060150540003194086,
+        "2->3,1<->2": 0.060150540003194086,
+        "2->3,1<->3": 0.1993880599786837,
+        "2->3,2<->3": 0.25953859998187756,
+        "3->1,1<->2": 0.340636668791084,
+        "3->1,1<->3": 0.37772553194805014,
+        "3->1,2<->3": 0.03708886315696591,
+        "3->2,1<->2": 0.2224497368249121,
+        "3->2,1<->3": 0.03708886315696591,
+        "3->2,2<->3": 0.2595385999818778,
+        "1->2,1->3": 0.17833747196936622,
+        "1->2,2->3": 0.060150540003194086,
+        "1->2,3->1": 0.17833747196936622,
+        "1->2,3->2": 0.2224497368249121,
+        "1->3,2->1": 0.17833747196936622,
+        "1->3,2->3": 0.19938805997868392,
+        "1->3,3->2": 0.03708886315696591,
+        "2->1,2->3": 0.060150540003194086,
+        "2->1,3->1": 0.34063666879108423,
+        "2->1,3->2": 0.060150540003194086,
+        "2->3,3->1": 0.03708886315696591,
+        "3->1,3->2": 0.03708886315696591,
+        "1<->2,1<->3,2<->3": 0.0,
+        "1->2,1<->2,1<->3": -2.220446049250313e-16,
+        "1->2,1<->2,2<->3": 0.22244973682491187,
+        "1->2,1<->3,2<->3": 0.0,
+        "1->3,1<->2,1<->3": 0.0,
+        "1->3,1<->2,2<->3": -2.220446049250313e-16,
+        "1->3,1<->3,2<->3": 0.1993880599786837,
+        "2->1,1<->2,1<->3": 0.340636668791084,
+        "2->1,1<->2,2<->3": 0.0,
+        "2->1,1<->3,2<->3": 0.0,
+        "2->3,1<->2,1<->3": 0.0,
+        "2->3,1<->2,2<->3": -2.220446049250313e-16,
+        "2->3,1<->3,2<->3": 0.1993880599786837,
+        "3->1,1<->2,1<->3": 0.340636668791084,
+        "3->1,1<->2,2<->3": 0.0,
+        "3->1,1<->3,2<->3": -2.220446049250313e-16,
+        "3->2,1<->2,1<->3": 0.0,
+        "3->2,1<->2,2<->3": 0.22244973682491165,
+        "3->2,1<->3,2<->3": 0.0,
+        "1->2,1->3,1<->2": 0.17833747196936578,
+        "1->2,1->3,1<->3": 0.178337471969366,
+        "1->2,1->3,2<->3": -2.220446049250313e-16,
+        "1->2,2->3,1<->2": 0.06015054000319364,
+        "1->2,2->3,1<->3": 0.0,
+        "1->2,2->3,2<->3": 0.0,
+        "1->2,3->1,1<->2": -2.220446049250313e-16,
+        "1->2,3->1,1<->3": 0.17833747196936556,
+        "1->2,3->1,2<->3": 0.0,
+        "1->2,3->2,1<->2": 0.22244973682491165,
+        "1->2,3->2,1<->3": -2.220446049250313e-16,
+        "1->2,3->2,2<->3": 0.2224497368249112,
+        "1->3,2->1,1<->2": 0.17833747196936578,
+        "1->3,2->1,1<->3": -2.220446049250313e-16,
+        "1->3,2->1,2<->3": 0.0,
+        "1->3,2->3,1<->2": 0.0,
+        "1->3,2->3,1<->3": 0.19938805997868259,
+        "1->3,2->3,2<->3": 0.19938805997868303,
+        "1->3,3->2,1<->2": -2.220446049250313e-16,
+        "1->3,3->2,1<->3": 0.03708886315696591,
+        "1->3,3->2,2<->3": 0.0,
+        "2->1,2->3,1<->2": 0.06015054000319364,
+        "2->1,2->3,1<->3": 0.0,
+        "2->1,2->3,2<->3": 0.060150540003193864,
+        "2->1,3->1,1<->2": 0.340636668791084,
+        "2->1,3->1,1<->3": 0.340636668791084,
+        "2->1,3->1,2<->3": 0.0,
+        "2->1,3->2,1<->2": 0.0,
+        "2->1,3->2,1<->3": 0.0,
+        "2->1,3->2,2<->3": 0.060150540003193864,
+        "2->3,3->1,1<->2": -2.220446049250313e-16,
+        "2->3,3->1,1<->3": 0.0,
+        "2->3,3->1,2<->3": 0.03708886315696547,
+        "3->1,3->2,1<->2": 0.0,
+        "3->1,3->2,1<->3": 0.03708886315696547,
+        "3->1,3->2,2<->3": 0.03708886315696591,
+        "1->2,1->3,2->3": 0.0,
+        "1->2,1->3,3->2": 0.0,
+        "1->2,3->1,3->2": 2.220446049250313e-16,
+        "1->3,2->1,2->3": 0.0,
+        "2->1,2->3,3->1": 0.0,
+        "2->1,3->1,3->2": 2.220446049250313e-16,
+        "1->2,1<->2,1<->3,2<->3": 0.0,
+        "1->3,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "2->1,1<->2,1<->3,2<->3": 0.0,
+        "2->3,1<->2,1<->3,2<->3": 0.0,
+        "3->1,1<->2,1<->3,2<->3": -2.220446049250313e-16,
+        "3->2,1<->2,1<->3,2<->3": -2.220446049250313e-16,
+        "1->2,1->3,1<->2,1<->3": -1.1102230246251565e-15,
+        "1->2,1->3,1<->2,2<->3": -2.220446049250313e-16,
+        "1->2,1->3,1<->3,2<->3": -2.220446049250313e-16,
+        "1->2,2->3,1<->2,1<->3": -6.661338147750939e-16,
+        "1->2,2->3,1<->2,2<->3": -2.220446049250313e-16,
+        "1->2,2->3,1<->3,2<->3": -4.440892098500626e-16,
+        "1->2,3->1,1<->2,1<->3": -1.3322676295501878e-15,
+        "1->2,3->1,1<->2,2<->3": -6.661338147750939e-16,
+        "1->2,3->1,1<->3,2<->3": -6.661338147750939e-16,
+        "1->2,3->2,1<->2,1<->3": -2.220446049250313e-16,
+        "1->2,3->2,1<->2,2<->3": 0.22244973682491143,
+        "1->2,3->2,1<->3,2<->3": -2.220446049250313e-16,
+        "1->3,2->1,1<->2,1<->3": -4.440892098500626e-16,
+        "1->3,2->1,1<->2,2<->3": -4.440892098500626e-16,
+        "1->3,2->1,1<->3,2<->3": -2.220446049250313e-16,
+        "1->3,2->3,1<->2,1<->3": 0.0,
+        "1->3,2->3,1<->2,2<->3": -2.220446049250313e-16,
+        "1->3,2->3,1<->3,2<->3": 0.1993880599786837,
+        "1->3,3->2,1<->2,1<->3": -4.440892098500626e-16,
+        "1->3,3->2,1<->2,2<->3": -2.220446049250313e-16,
+        "1->3,3->2,1<->3,2<->3": -6.661338147750939e-16,
+        "2->1,2->3,1<->2,1<->3": 0.0,
+        "2->1,2->3,1<->2,2<->3": -2.220446049250313e-16,
+        "2->1,2->3,1<->3,2<->3": -2.220446049250313e-16,
+        "2->1,3->1,1<->2,1<->3": 0.340636668791084,
+        "2->1,3->1,1<->2,2<->3": -4.440892098500626e-16,
+        "2->1,3->1,1<->3,2<->3": -2.220446049250313e-16,
+        "2->1,3->2,1<->2,1<->3": 0.0,
+        "2->1,3->2,1<->2,2<->3": -6.661338147750939e-16,
+        "2->1,3->2,1<->3,2<->3": -6.661338147750939e-16,
+        "2->3,3->1,1<->2,1<->3": -2.220446049250313e-16,
+        "2->3,3->1,1<->2,2<->3": -6.661338147750939e-16,
+        "2->3,3->1,1<->3,2<->3": 0.0,
+        "3->1,3->2,1<->2,1<->3": 0.0,
+        "3->1,3->2,1<->2,2<->3": -2.220446049250313e-16,
+        "3->1,3->2,1<->3,2<->3": -6.661338147750939e-16,
+        "1->2,1->3,2->3,1<->2": -2.220446049250313e-16,
+        "1->2,1->3,2->3,1<->3": 0.0,
+        "1->2,1->3,2->3,2<->3": -1.1102230246251565e-15,
+        "1->2,1->3,3->2,1<->2": -4.440892098500626e-16,
+        "1->2,1->3,3->2,1<->3": -6.661338147750939e-16,
+        "1->2,1->3,3->2,2<->3": -2.220446049250313e-16,
+        "1->2,3->1,3->2,1<->2": 0.0,
+        "1->2,3->1,3->2,1<->3": 0.0,
+        "1->2,3->1,3->2,2<->3": -2.220446049250313e-16,
+        "1->3,2->1,2->3,1<->2": 0.0,
+        "1->3,2->1,2->3,1<->3": 0.0,
+        "1->3,2->1,2->3,2<->3": 0.0,
+        "2->1,2->3,3->1,1<->2": -4.440892098500626e-16,
+        "2->1,2->3,3->1,1<->3": -2.220446049250313e-16,
+        "2->1,2->3,3->1,2<->3": -6.661338147750939e-16,
+        "2->1,3->1,3->2,1<->2": -2.220446049250313e-16,
+        "2->1,3->1,3->2,1<->3": -2.220446049250313e-16,
+        "2->1,3->1,3->2,2<->3": -2.220446049250313e-16,
+        "1->2,1->3,1<->2,1<->3,2<->3": -6.661338147750939e-16,
+        "1->2,2->3,1<->2,1<->3,2<->3": 0.0,
+        "1->2,3->1,1<->2,1<->3,2<->3": -2.220446049250313e-16,
+        "1->2,3->2,1<->2,1<->3,2<->3": 0.0,
+        "1->3,2->1,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "1->3,2->3,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "1->3,3->2,1<->2,1<->3,2<->3": -2.220446049250313e-16,
+        "2->1,2->3,1<->2,1<->3,2<->3": -1.1102230246251565e-15,
+        "2->1,3->1,1<->2,1<->3,2<->3": -6.661338147750939e-16,
+        "2->1,3->2,1<->2,1<->3,2<->3": -1.1102230246251565e-15,
+        "2->3,3->1,1<->2,1<->3,2<->3": -6.661338147750939e-16,
+        "3->1,3->2,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "1->2,1->3,2->3,1<->2,1<->3": -8.881784197001252e-16,
+        "1->2,1->3,2->3,1<->2,2<->3": -6.661338147750939e-16,
+        "1->2,1->3,2->3,1<->3,2<->3": -2.220446049250313e-16,
+        "1->2,1->3,3->2,1<->2,1<->3": -6.661338147750939e-16,
+        "1->2,1->3,3->2,1<->2,2<->3": -6.661338147750939e-16,
+        "1->2,1->3,3->2,1<->3,2<->3": -1.1102230246251565e-15,
+        "1->2,3->1,3->2,1<->2,1<->3": -1.1102230246251565e-15,
+        "1->2,3->1,3->2,1<->2,2<->3": -2.220446049250313e-16,
+        "1->2,3->1,3->2,1<->3,2<->3": -1.3322676295501878e-15,
+        "1->3,2->1,2->3,1<->2,1<->3": -2.220446049250313e-16,
+        "1->3,2->1,2->3,1<->2,2<->3": -2.220446049250313e-16,
+        "1->3,2->1,2->3,1<->3,2<->3": -2.220446049250313e-16,
+        "2->1,2->3,3->1,1<->2,1<->3": -6.661338147750939e-16,
+        "2->1,2->3,3->1,1<->2,2<->3": -2.220446049250313e-16,
+        "2->1,2->3,3->1,1<->3,2<->3": -4.440892098500626e-16,
+        "2->1,3->1,3->2,1<->2,1<->3": -4.440892098500626e-16,
+        "2->1,3->1,3->2,1<->2,2<->3": -1.3322676295501878e-15,
+        "2->1,3->1,3->2,1<->3,2<->3": -4.440892098500626e-16,
+        "1->2,1->3,2->3,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "1->2,1->3,3->2,1<->2,1<->3,2<->3": -4.440892098500626e-16,
+        "1->2,3->1,3->2,1<->2,1<->3,2<->3": -2.220446049250313e-16,
+        "1->3,2->1,2->3,1<->2,1<->3,2<->3": -6.661338147750939e-16,
+        "2->1,2->3,3->1,1<->2,1<->3,2<->3": -2.220446049250313e-16,
+        "2->1,3->1,3->2,1<->2,1<->3,2<->3": -2.220446049250313e-16
+      }
+    }
+  }
+}
