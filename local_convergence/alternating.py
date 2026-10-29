@@ -1,8 +1,8 @@
 """Local convergence of the alternating algorithm and refitting on four variables.
 
-Section 7.4 of the main article (Figure 5), Section S18 of the Supplementary
+Section 7.4 of the main article (Figure 4), Section S18 of the Supplementary
 Material ("Local convergence and refitting", Table S2), and the two-variable
-exact-fiber example of Figure 3 (Section 5.3).
+exact-fiber example of Figure 2 (Section 5.3).
 
 Parent-row convention: Sigma = (I-B)^(-T) Omega (I-B)^(-1); B[i, j] != 0 is
 the edge i -> j.  One cycle of Algorithm 1 is the B-step (6), solved exactly

@@ -1,4 +1,4 @@
-# Figure 4 of the main article: global selection on three vertices (panels A and B)
+# Figure 3 of the main article: global selection on three vertices (panels A and B)
 # and random starts of the alternating algorithm at n = 1000 (panel C).
 # Run from any directory: Rscript global_selection/figures.R
 # Inputs: global_selection/results/summary.csv and random_starts/results/summary.csv.

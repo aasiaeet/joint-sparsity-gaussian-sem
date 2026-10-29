@@ -1,6 +1,6 @@
-# Figures 3 and 5 of the main article from the tables written by alternating.py.
-# Figure 5: figures/alternating_and_refit.pdf (Section 7.4).
-# Figure 3: figures/exact_fiber_penalties.pdf (Section 5.3).
+# Figures 2 and 4 of the main article from the tables written by alternating.py.
+# Figure 4: figures/alternating_and_refit.pdf (Section 7.4).
+# Figure 2: figures/exact_fiber_penalties.pdf (Section 5.3).
 # Run: Rscript figures.R   (from any directory)
 args <- commandArgs(trailingOnly = FALSE)
 here <- dirname(normalizePath(sub("^--file=", "", args[grepl("^--file=", args)])))
